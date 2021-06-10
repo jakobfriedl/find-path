@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1623346556 source:c:\.jakob\fhtw\2_semester\algorithmen_und_datenstrukturen\programmierbeispiel_3\find_path\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<windows.h>
+
