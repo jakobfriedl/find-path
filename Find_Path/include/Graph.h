@@ -3,7 +3,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <unordered_map>
 #include <memory>
 #include <fstream>
 #include <windows.h>
@@ -19,7 +19,7 @@ class Graph
         }Station;
 
         //Adjacency List
-        std::map<std::string, Station*> stations;
+        std::unordered_map<std::string, Station*> stations;
 
         void setColor(int color);
 
@@ -27,7 +27,7 @@ class Graph
         Graph();
         ~Graph();
 
-        std::map<std::string, Station*> getStations() const;
+        std::unordered_map<std::string, Station*> getStations() const;
         Station* createNewStation(std::string name, std::string line, int cost);
 
         void createGraph(std::string filename);

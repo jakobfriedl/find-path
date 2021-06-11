@@ -15,7 +15,7 @@ Graph::~Graph()
     #endif // DEBUG
 }
 
-std::map<std::string, Graph::Station*> Graph::getStations() const{
+std::unordered_map<std::string, Graph::Station*> Graph::getStations() const{
     return this->stations;
 }
 
@@ -103,7 +103,7 @@ void Graph::createGraph(std::string filename){
             }
         }
     }
-
+    /**/
     //Print adjacency-list
     for(const auto& s  : this->stations){
         std::cout << std::endl;
@@ -112,7 +112,8 @@ void Graph::createGraph(std::string filename){
             std::cout << "   " << t->name << " via " << t->line << " -- Costs: " << t->cost << std::endl;
         }
     }
-    std::cout << this->stations.size() << std::endl;
+    std::cout << std::endl << "Number of stations: " << this->stations.size() << std::endl;
+
 
     //Close file
     readFile.close();
@@ -125,7 +126,7 @@ void Graph::dijkstra(std::string start, std::string dest){
         return;
     }
 
-    //Start Dijkstra
+    //Start Dijkstra-Search
     setColor(3); std::cout << "Starting Dijkstra search from " << start << " to " << dest << std::endl; setColor(7);
 
 }
