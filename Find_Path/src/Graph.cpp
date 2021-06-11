@@ -15,12 +15,13 @@ Graph::~Graph()
     #endif // DEBUG
 }
 
-std::shared_ptr<std::vector<std::shared_ptr<Graph::Station>>> Graph::getStations() const{
+std::vector<Graph::Station*> Graph::getStations() const{
     return this->stations;
 }
 
-std::shared_ptr<Graph::Station> Graph::createNewStation(std::string name, std::string line, int cost){
-    return std::make_shared<Station>(Station{name, line, cost, nullptr});
+Graph::Station* Graph::createNewStation(std::string name, std::string line, int cost){
+    Station* station = new Station{name, line, cost};
+    return station;
 }
 
 void Graph::createGraph(std::string filename){
@@ -41,6 +42,7 @@ void Graph::createGraph(std::string filename){
         int startIndex = 0;
         int endIndex = 0;
         int counter = -1;
+
         std::string delimiter;
         do{
             //Check which delimiter to use based on current position in the string
@@ -64,14 +66,81 @@ void Graph::createGraph(std::string filename){
         lineData.erase(lineData.begin()+0);
         lineData.erase(lineData.begin()+1);
 
+        auto lineName = lineData.at(0);
 
-        for(const auto& s: lineData){
-            std::cout << s << std::endl;
+        //Add station-information to adjacency-list
+        for(auto i = 1; i < (int)lineData.size(); i+=2){
+            auto alreadyExists = false;
+
+            auto current = this->createNewStation(lineData.at(i), lineName, 0);
+
+            //Add adjacent stations to struct, if existant
+            if(i<=(int)lineData.size()-2){
+                auto next = this->createNewStation(lineData.at(i+2), lineName, std::stoi(lineData.at(i+1)));
+                current->adjacentStations.push_back(next);
+            }
+            if(i>=3){
+                auto previous = this->createNewStation(lineData.at(i-2), lineName, std::stoi(lineData.at(i-1)));
+                current->adjacentStations.push_back(previous);
+            }
+
+            if((int)this->stations.size() == 0){
+                //Adjacency list is empty
+                this->stations.push_back(current);
+            }else{
+                //Check if current station has an entry in adjacency-list
+                for(auto j = 0; j < (int)this->stations.size(); j++){
+                    if(this->stations.at(j)->name == current->name){
+                        //Add adjacent stations from current station to entry in adjacency-list
+                        for(const auto& station : current->adjacentStations){
+                            this->stations.at(j)->adjacentStations.push_back(station);
+                        }
+                        alreadyExists = true;
+                        break;
+                    }
+                }
+                if(!alreadyExists){
+                    //Create new entry in adjacency-list for current station
+                    this->stations.push_back(current);
+                }
+            }
         }
-        std::cout << std::endl;
     }
+
+    //Print adjacency-list
+    for(const auto& s : this->stations){
+        std::cout << std::endl;
+        std::cout << s->name << std::endl;
+        for(const auto& t : s->adjacentStations){
+            std::cout << "   " << t->name << " via " << t->line << " -- Costs: " << t->cost << std::endl;
+        }
+    }
+
     //Close file
     readFile.close();
+}
+
+void Graph::dijkstra(std::string start, std::string dest){
+    //Checks if both input-variables are valid stations
+    auto valid = false;
+    for(const auto& s : this->stations){
+        if(s->name == start){
+            for(const auto& t : this->stations){
+                if(t->name == dest){
+                    valid = true;
+                    break;
+                }
+            }
+            if(valid) break;
+        }
+    }
+    if(!valid){
+        setColor(12); std::cout << "[Error] Please enter a valid start and destination station!" << std::endl; setColor(7);
+        return;
+    }
+
+    setColor(3); std::cout << "Starting Dijkstra search from " << start << " to " << dest << std::endl; setColor(7);
+
 }
 
 void Graph::setColor(int color){

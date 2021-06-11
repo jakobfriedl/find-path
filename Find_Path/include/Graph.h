@@ -14,10 +14,10 @@ class Graph
             std::string name;
             std::string line;
             int cost;
-            std::shared_ptr<std::vector<std::shared_ptr<struct station>>> adjacentStations;
+            std::vector<struct station*> adjacentStations;
         }Station;
 
-        std::shared_ptr<std::vector<std::shared_ptr<Station>>> stations;
+        std::vector<Station*> stations;
 
         void setColor(int color);
 
@@ -25,10 +25,12 @@ class Graph
         Graph();
         ~Graph();
 
-        std::shared_ptr<std::vector<std::shared_ptr<Station>>> getStations() const;
-        std::shared_ptr<Station> createNewStation(std::string name, std::string line, int cost);
+        std::vector<Station*> getStations() const;
+        Station* createNewStation(std::string name, std::string line, int cost);
 
         void createGraph(std::string filename);
+
+        void dijkstra(std::string start, std::string dest);
 };
 
 #endif // GRAPH_H

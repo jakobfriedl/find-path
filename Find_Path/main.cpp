@@ -22,6 +22,8 @@ int main(int argc, char *argv[])
 
     graph.createGraph(file);
 
+    graph.dijkstra(start, dest);
+
     return 0;
 }
 
