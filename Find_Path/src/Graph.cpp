@@ -15,7 +15,7 @@ Graph::~Graph()
     #endif // DEBUG
 }
 
-std::vector<Graph::Station*> Graph::getStations() const{
+std::map<std::string, Graph::Station*> Graph::getStations() const{
     return this->stations;
 }
 
@@ -74,7 +74,7 @@ void Graph::createGraph(std::string filename){
 
             auto current = this->createNewStation(lineData.at(i), lineName, 0);
 
-            //Add adjacent stations to struct, if existant
+            //Add adjacent stations to struct, if they exist
             if(i<=(int)lineData.size()-2){
                 auto next = this->createNewStation(lineData.at(i+2), lineName, std::stoi(lineData.at(i+1)));
                 current->adjacentStations.push_back(next);
@@ -86,35 +86,33 @@ void Graph::createGraph(std::string filename){
 
             if((int)this->stations.size() == 0){
                 //Adjacency list is empty
-                this->stations.push_back(current);
+                this->stations[current->name] = current;
             }else{
                 //Check if current station has an entry in adjacency-list
-                for(auto j = 0; j < (int)this->stations.size(); j++){
-                    if(this->stations.at(j)->name == current->name){
-                        //Add adjacent stations from current station to entry in adjacency-list
-                        for(const auto& station : current->adjacentStations){
-                            this->stations.at(j)->adjacentStations.push_back(station);
-                        }
-                        alreadyExists = true;
-                        break;
+                if(this->stations[current->name] != nullptr){
+                    //Add adjacent stations from current station to entry in adjacency-list
+                    for(const auto& station : current->adjacentStations){
+                        this->stations[current->name]->adjacentStations.push_back(station);
                     }
+                    alreadyExists = true;
                 }
                 if(!alreadyExists){
                     //Create new entry in adjacency-list for current station
-                    this->stations.push_back(current);
+                    this->stations[current->name] = current;
                 }
             }
         }
     }
 
     //Print adjacency-list
-    for(const auto& s : this->stations){
+    for(const auto& s  : this->stations){
         std::cout << std::endl;
-        std::cout << s->name << std::endl;
-        for(const auto& t : s->adjacentStations){
+        std::cout << s.second->name << std::endl;
+        for(const auto& t : s.second->adjacentStations){
             std::cout << "   " << t->name << " via " << t->line << " -- Costs: " << t->cost << std::endl;
         }
     }
+    std::cout << this->stations.size() << std::endl;
 
     //Close file
     readFile.close();
@@ -122,23 +120,12 @@ void Graph::createGraph(std::string filename){
 
 void Graph::dijkstra(std::string start, std::string dest){
     //Checks if both input-variables are valid stations
-    auto valid = false;
-    for(const auto& s : this->stations){
-        if(s->name == start){
-            for(const auto& t : this->stations){
-                if(t->name == dest){
-                    valid = true;
-                    break;
-                }
-            }
-            if(valid) break;
-        }
-    }
-    if(!valid){
+    if(this->stations[start] == nullptr || this->stations[dest] == nullptr){
         setColor(12); std::cout << "[Error] Please enter a valid start and destination station!" << std::endl; setColor(7);
         return;
     }
 
+    //Start Dijkstra
     setColor(3); std::cout << "Starting Dijkstra search from " << start << " to " << dest << std::endl; setColor(7);
 
 }

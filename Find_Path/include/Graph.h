@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include <map>
 #include <memory>
 #include <fstream>
 #include <windows.h>
@@ -17,7 +18,8 @@ class Graph
             std::vector<struct station*> adjacentStations;
         }Station;
 
-        std::vector<Station*> stations;
+        //Adjacency List
+        std::map<std::string, Station*> stations;
 
         void setColor(int color);
 
@@ -25,7 +27,7 @@ class Graph
         Graph();
         ~Graph();
 
-        std::vector<Station*> getStations() const;
+        std::map<std::string, Station*> getStations() const;
         Station* createNewStation(std::string name, std::string line, int cost);
 
         void createGraph(std::string filename);
