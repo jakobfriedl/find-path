@@ -1,12 +1,16 @@
 #include <iostream>
 #include <string>
-#include <fstream>
 #include <windows.h>
+#include <memory>
+
+#include "Graph.h"
 
 void setColor(int color);
 
 int main(int argc, char *argv[])
 {
+    Graph graph;
+
     if(argc != 4){
         setColor(12); std::cout << "Invalid input format, please use: ";
         setColor(4); std::cout << "find_path filename start destination" << std::endl; setColor(7);
@@ -16,7 +20,8 @@ int main(int argc, char *argv[])
     std::string start = argv[2];
     std::string dest = argv[3];
 
-    std::cout << file << start << dest << std::endl;
+    graph.createGraph(file);
+
     return 0;
 }
 
