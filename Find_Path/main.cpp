@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
     std::string start = argv[2];
     std::string dest = argv[3];
 
-    graph.createGraph(file);
-
+    graph.processInputFile(file);
+    //graph.printGraph();
     graph.dijkstra(start, dest);
 
     return 0;

@@ -30,7 +30,9 @@ class Graph
         std::unordered_map<std::string, Station*> getStations() const;
         Station* createNewStation(std::string name, std::string line, int cost);
 
-        void createGraph(std::string filename);
+        void processInputFile(std::string filename);
+        void createGraph(std::vector<std::string> lineData);
+        void printGraph();
 
         void dijkstra(std::string start, std::string dest);
 };

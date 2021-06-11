@@ -24,7 +24,7 @@ Graph::Station* Graph::createNewStation(std::string name, std::string line, int 
     return station;
 }
 
-void Graph::createGraph(std::string filename){
+void Graph::processInputFile(std::string filename){
     std::ifstream readFile(filename);
 
     //Open file
@@ -66,44 +66,51 @@ void Graph::createGraph(std::string filename){
         lineData.erase(lineData.begin()+0);
         lineData.erase(lineData.begin()+1);
 
-        auto lineName = lineData.at(0);
+        this->createGraph(lineData);
+    }
+    //Close file
+    readFile.close();
+}
 
-        //Add station-information to adjacency-list
-        for(auto i = 1; i < (int)lineData.size(); i+=2){
-            auto alreadyExists = false;
+void Graph::createGraph(std::vector<std::string> lineData){
+    auto lineName = lineData.at(0);
+    //Add station-information to adjacency-list
+    for(auto i = 1; i < (int)lineData.size(); i+=2){
+        auto alreadyExists = false;
 
-            auto current = this->createNewStation(lineData.at(i), lineName, 0);
+        auto current = this->createNewStation(lineData.at(i), lineName, 0);
 
-            //Add adjacent stations to struct, if they exist
-            if(i<=(int)lineData.size()-2){
-                auto next = this->createNewStation(lineData.at(i+2), lineName, std::stoi(lineData.at(i+1)));
-                current->adjacentStations.push_back(next);
+        //Add adjacent stations to struct, if they exist
+        if(i<=(int)lineData.size()-2){
+            auto next = this->createNewStation(lineData.at(i+2), lineName, std::stoi(lineData.at(i+1)));
+            current->adjacentStations.push_back(next);
+        }
+        if(i>=3){
+            auto previous = this->createNewStation(lineData.at(i-2), lineName, std::stoi(lineData.at(i-1)));
+            current->adjacentStations.push_back(previous);
+        }
+
+        //Adjacency list is empty
+        if((int)this->stations.size() == 0){
+            this->stations[current->name] = current;
+        }else{
+            //Check if current station has an entry in adjacency-list
+            if(this->stations[current->name] != nullptr){
+                //Add adjacent stations from current station to entry in adjacency-list
+                for(const auto& station : current->adjacentStations){
+                    this->stations[current->name]->adjacentStations.push_back(station);
+                }
+                alreadyExists = true;
             }
-            if(i>=3){
-                auto previous = this->createNewStation(lineData.at(i-2), lineName, std::stoi(lineData.at(i-1)));
-                current->adjacentStations.push_back(previous);
-            }
-
-            if((int)this->stations.size() == 0){
-                //Adjacency list is empty
+            if(!alreadyExists){
+                //Create new entry in adjacency-list for current station
                 this->stations[current->name] = current;
-            }else{
-                //Check if current station has an entry in adjacency-list
-                if(this->stations[current->name] != nullptr){
-                    //Add adjacent stations from current station to entry in adjacency-list
-                    for(const auto& station : current->adjacentStations){
-                        this->stations[current->name]->adjacentStations.push_back(station);
-                    }
-                    alreadyExists = true;
-                }
-                if(!alreadyExists){
-                    //Create new entry in adjacency-list for current station
-                    this->stations[current->name] = current;
-                }
             }
         }
     }
-    /**/
+}
+
+void Graph::printGraph(){
     //Print adjacency-list
     for(const auto& s  : this->stations){
         std::cout << std::endl;
@@ -113,10 +120,6 @@ void Graph::createGraph(std::string filename){
         }
     }
     std::cout << std::endl << "Number of stations: " << this->stations.size() << std::endl;
-
-
-    //Close file
-    readFile.close();
 }
 
 void Graph::dijkstra(std::string start, std::string dest){
