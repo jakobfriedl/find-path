@@ -21,8 +21,13 @@ int main(int argc, char *argv[])
     std::string dest = argv[3];
 
     graph.processInputFile(file);
-    //graph.printGraph();
-    graph.dijkstra(start, dest);
+    //graph.printAdjacencyList();
+
+    try{
+        graph.dijkstra(start, dest);
+    }catch(std::invalid_argument& e){
+        setColor(12); std::cout << e.what() << std::endl; setColor(7);
+    }
 
     return 0;
 }

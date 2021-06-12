@@ -31,8 +31,8 @@ class Graph
         Station* createNewStation(std::string name, std::string line, int cost);
 
         void processInputFile(std::string filename);
-        void createGraph(std::vector<std::string> lineData);
-        void printGraph();
+        void createAdjacencyList(std::vector<std::string> lineData);
+        void printAdjacencyList();
 
         void dijkstra(std::string start, std::string dest);
 };

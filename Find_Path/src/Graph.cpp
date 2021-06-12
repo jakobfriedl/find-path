@@ -1,5 +1,6 @@
 #include "Graph.h"
 #include <iostream>
+#include <set>
 
 Graph::Graph()
 {
@@ -66,13 +67,13 @@ void Graph::processInputFile(std::string filename){
         lineData.erase(lineData.begin()+0);
         lineData.erase(lineData.begin()+1);
 
-        this->createGraph(lineData);
+        this->createAdjacencyList(lineData);
     }
     //Close file
     readFile.close();
 }
 
-void Graph::createGraph(std::vector<std::string> lineData){
+void Graph::createAdjacencyList(std::vector<std::string> lineData){
     auto lineName = lineData.at(0);
     //Add station-information to adjacency-list
     for(auto i = 1; i < (int)lineData.size(); i+=2){
@@ -110,7 +111,7 @@ void Graph::createGraph(std::vector<std::string> lineData){
     }
 }
 
-void Graph::printGraph(){
+void Graph::printAdjacencyList(){
     //Print adjacency-list
     for(const auto& s  : this->stations){
         std::cout << std::endl;
@@ -125,13 +126,65 @@ void Graph::printGraph(){
 void Graph::dijkstra(std::string start, std::string dest){
     //Checks if both input-variables are valid stations
     if(this->stations[start] == nullptr || this->stations[dest] == nullptr){
-        setColor(12); std::cout << "[Error] Please enter a valid start and destination station!" << std::endl; setColor(7);
-        return;
+        throw std::invalid_argument("[Error] Please enter a valid start and destination station!");
     }
 
     //Start Dijkstra-Search
     setColor(3); std::cout << "Starting Dijkstra search from " << start << " to " << dest << std::endl; setColor(7);
 
+    std::unordered_map<std::string, int> costs;
+    std::set<std::pair<int, std::string>> checkNext;
+
+    //Insert start-node to
+    costs[start] = 0;
+    checkNext.insert(std::make_pair(0, start));
+
+    int counter=0;
+
+    while(!checkNext.empty()){
+        auto distance = checkNext.begin()->first;
+        auto stationName = checkNext.begin()->second;
+
+        setColor(1);
+        std::cout << stationName << " " << distance << std::endl;
+        setColor(7);
+
+        //Destination is reached
+        if(stationName == dest){
+            break;
+        }
+
+        for(auto& adj : this->stations[stationName]->adjacentStations){
+            std::cout << "checking " << adj->name << " via " << adj->line << std::endl;
+            //Cost has not been initialised yet
+            if(costs[adj->name] == 0 && adj->name != start){
+                costs[adj->name] = distance + adj->cost;
+                checkNext.insert(std::make_pair(costs[adj->name], adj->name));
+            }
+            //Update Distance if necessary
+            if(distance + adj->cost < costs[adj->name]){
+                std::cout << "     updating cost from " << costs[adj->name] << " to: " << distance+adj->cost << std::endl;
+                auto toUpdate = checkNext.find(std::make_pair(costs[adj->name], adj->name));
+
+                //Delete old entry from set
+                if(toUpdate != checkNext.end()){
+                    checkNext.erase(toUpdate);
+                }
+
+                //Insert new entry with updated Cost
+                costs[adj->name] = distance + adj->cost;
+                checkNext.insert(std::make_pair(costs[adj->name], adj->name));
+            }
+            counter++;
+        }
+        //Delete pair with lowest distance from set
+        checkNext.erase(checkNext.begin());
+    }
+
+    std::cout << "---------------------" << std::endl;
+    std::cout << dest << ": " << costs[dest] << std::endl;
+
+    std::cout << "Checks: " << counter << std::endl;
 }
 
 void Graph::setColor(int color){
