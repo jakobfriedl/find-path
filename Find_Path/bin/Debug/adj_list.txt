@@ -683,3 +683,13 @@ Ziegelhofstrasse
 Zippererstrasse
    Gasometer via U3 -- Costs: 1
    Enkplatz via U3 -- Costs: 1
+
+
+
+
+   TESTS:
+
+   find_path graph.txt Leopoldau Carminweg
+
+   -> Cost Carminweg: 10
+   -> Checks: 17

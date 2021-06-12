@@ -130,40 +130,38 @@ void Graph::dijkstra(std::string start, std::string dest){
     }
 
     //Start Dijkstra-Search
-    setColor(3); std::cout << "Starting Dijkstra search from " << start << " to " << dest << std::endl; setColor(7);
+    setColor(9); std::cout << "Starting Dijkstra search from " << start << " to " << dest << std::endl; setColor(7);
 
     std::unordered_map<std::string, int> costs;
+    std::unordered_map<std::string, bool> visited;
     std::set<std::pair<int, std::string>> checkNext;
 
     //Insert start-node to
     costs[start] = 0;
     checkNext.insert(std::make_pair(0, start));
 
-    int counter=0;
+    auto counter = 0;
 
-    while(!checkNext.empty()){
+    //Search until destination is found
+    while(checkNext.begin()->second != dest){
         auto distance = checkNext.begin()->first;
         auto stationName = checkNext.begin()->second;
 
-        setColor(1);
-        std::cout << stationName << " " << distance << std::endl;
-        setColor(7);
-
-        //Destination is reached
-        if(stationName == dest){
-            break;
-        }
+        setColor(3); std::cout << stationName << " via " << this->stations[stationName]->line << std::endl; setColor(7);
 
         for(auto& adj : this->stations[stationName]->adjacentStations){
-            std::cout << "checking " << adj->name << " via " << adj->line << std::endl;
+            //Check if Station has already been visited
+            if(visited[adj->name]) continue;
+
             //Cost has not been initialised yet
             if(costs[adj->name] == 0 && adj->name != start){
                 costs[adj->name] = distance + adj->cost;
                 checkNext.insert(std::make_pair(costs[adj->name], adj->name));
             }
+
             //Update Distance if necessary
             if(distance + adj->cost < costs[adj->name]){
-                std::cout << "     updating cost from " << costs[adj->name] << " to: " << distance+adj->cost << std::endl;
+                setColor(5); std::cout << "   [UPDATE] "; setColor(7); std::cout << adj->name << " from " << costs[adj->name] << " to " << distance+adj->cost << std::endl;
                 auto toUpdate = checkNext.find(std::make_pair(costs[adj->name], adj->name));
 
                 //Delete old entry from set
@@ -175,16 +173,23 @@ void Graph::dijkstra(std::string start, std::string dest){
                 costs[adj->name] = distance + adj->cost;
                 checkNext.insert(std::make_pair(costs[adj->name], adj->name));
             }
+            std::cout << "   checking " << adj->name << " via " << adj->line << ": " << costs[adj->name] << std::endl;
             counter++;
         }
-        //Delete pair with lowest distance from set
+        //Remove pair with lowest distance from set and add it to visited
         checkNext.erase(checkNext.begin());
+        visited[stationName] = true;
     }
 
     std::cout << "---------------------" << std::endl;
     std::cout << dest << ": " << costs[dest] << std::endl;
-
     std::cout << "Checks: " << counter << std::endl;
+
+    for(const auto& v : visited){
+        if(v.second){
+            std::cout << "   " << v.first << ": " << costs[v.first] << std::endl;
+        }
+    }
 }
 
 void Graph::setColor(int color){
