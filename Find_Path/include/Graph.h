@@ -20,6 +20,7 @@ class Graph
 
         //Adjacency List
         std::unordered_map<std::string, Station*> stations;
+        std::string getPath(std::string pathString, std::unordered_map<std::string, Station*> path, std::string station);
 
         void setColor(int color);
 

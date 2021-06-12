@@ -134,11 +134,13 @@ void Graph::dijkstra(std::string start, std::string dest){
 
     std::unordered_map<std::string, int> costs;
     std::unordered_map<std::string, bool> visited;
+    std::unordered_map<std::string, Station*> path;
     std::set<std::pair<int, std::string>> checkNext;
 
     //Insert start-node to
     costs[start] = 0;
     checkNext.insert(std::make_pair(0, start));
+    path[start] = this->stations[start];
 
     auto counter = 0;
 
@@ -173,6 +175,8 @@ void Graph::dijkstra(std::string start, std::string dest){
                 costs[adj->name] = distance + adj->cost;
                 checkNext.insert(std::make_pair(costs[adj->name], adj->name));
             }
+            path[adj->name] = this->stations[stationName];
+
             std::cout << "   checking " << adj->name << " via " << adj->line << ": " << costs[adj->name] << std::endl;
             counter++;
         }
@@ -181,16 +185,35 @@ void Graph::dijkstra(std::string start, std::string dest){
         visited[stationName] = true;
     }
 
-    std::cout << "---------------------" << std::endl;
-    std::cout << dest << ": " << costs[dest] << std::endl;
-    std::cout << "Checks: " << counter << std::endl;
+    std::cout << "=========================" << std::endl;
+    std::cout << "Start: " << start << std::endl;
+    std::cout << "Destination: " << dest << std::endl;
+    std::cout << "Total Cost: " << costs[dest] << std::endl;
+    setColor(8); std::cout << this->getPath("", path, dest) << std::endl; setColor(7);
 
-    for(const auto& v : visited){
-        if(v.second){
-            std::cout << "   " << v.first << ": " << costs[v.first] << std::endl;
-        }
-    }
+    //std::cout << "Checks: " << counter << std::endl;
 }
+
+std::string Graph::getPath(std::string pathString, std::unordered_map<std::string, Station*> path, std::string station){
+    //Check if start station is reached, since path(start) == start
+    if(station != path[station]->name){
+        int cost = INT_MAX;
+        //Concatenate Stations to output-string
+        for(const auto& s : this->stations[station]->adjacentStations){
+            if(s->name == path[station]->name){
+                if(s->cost < cost)
+                    cost = s->cost;
+            }
+        }
+
+        pathString = getPath(pathString, path, path[station]->name) + /**/"=[ " + std::to_string(cost) + " ]=>[ " + station + " (" + path[station]->line + ") ]";
+    }else{
+        //Add first station
+        pathString = "[ " + station + " ]" + pathString;
+    }
+    return pathString;
+}
+
 
 void Graph::setColor(int color){
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);

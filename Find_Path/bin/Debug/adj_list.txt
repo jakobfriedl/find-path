@@ -693,3 +693,6 @@ Zippererstrasse
 
    -> Cost Carminweg: 10
    -> Checks: 17
+
+
+   Find_Path.exe graph.txt Hauptbahnhof Schwedenplatz //Some error
