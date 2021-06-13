@@ -201,12 +201,9 @@ void Graph::dijkstra(std::string start, std::string dest){
 std::string Graph::getPath(std::string pathString, std::unordered_map<std::string, Station*> path, std::string station){
     //Check if start station is reached, since path(start) == start
     if(station != path[station]->name){
-
-        //TODO: Check if line changes and output it!
-
         //Concatenate Stations to output-string
         pathString = getPath(pathString, path, path[station]->name)
-                    + " =[ " + std::to_string(path[station]->cost) + " | " + path[station]->line + " ]=> [ "
+                    + " =[ " + std::to_string(path[station]->cost) + " | ( " + path[station]->line + " ) ]=> [ "
                     + station + " ]\n";
     }else{
         //Add first station
