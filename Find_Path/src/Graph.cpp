@@ -207,7 +207,7 @@ std::string Graph::getPath(std::string pathString, std::unordered_map<std::strin
                     + station + " ]\n";
     }else{
         //Add first station
-        pathString = "[ " + station + " ] == ( " + path[station]->line + " )\n" + pathString;
+        pathString = "[ " + station + " ]\n" + pathString;
     }
     return pathString;
 }
