@@ -11,14 +11,25 @@ int main(int argc, char *argv[])
 {
     Graph graph;
 
-    if(argc != 4){
+    if(argc != 4 && argc != 2){
         setColor(12); std::cout << "Invalid input format, please use: ";
-        setColor(4); std::cout << "find_path filename start destination" << std::endl; setColor(7);
+        setColor(4); std::cout << "* find_path filename start destination *";
+        setColor(12); std::cout << " OR ";
+        setColor(4); std::cout << "* find_path filename *" << std::endl; setColor(7);
         return 0;
     }
-    std::string file = argv[1];
-    std::string start = argv[2];
-    std::string dest = argv[3];
+    std::string file = argv[1], start, dest;
+    if(argc == 4){
+        start = argv[2];
+        dest = argv[3];
+    }else{
+        //Get Start and Destination if station name consists of multiple words
+        setColor(8); std::cout << "Please define start and destination: " << std::endl;
+        setColor(3); std::cout << "  Start: "; setColor(7);
+        getline(std::cin, start);
+        setColor(3); std::cout << "  Destination: "; setColor(7);
+        getline(std::cin, dest);
+    }
 
     graph.processInputFile(file);
     //graph.printAdjacencyList();

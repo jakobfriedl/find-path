@@ -20,6 +20,10 @@ class Graph
 
         //Adjacency List
         std::unordered_map<std::string, Station*> stations;
+        //Maps for Dijkstra-Algorithm
+        std::unordered_map<std::string, int> costs;
+        std::unordered_map<std::string, bool> visited;
+        std::unordered_map<std::string, Station*> path;
 
         void setColor(int color);
 
@@ -33,7 +37,7 @@ class Graph
         void createAdjacencyList(std::vector<std::string> lineData);
         void printAdjacencyList();
 
-        std::string getPath(std::string pathString, std::unordered_map<std::string, Station*> path, std::string station);
+        std::string getPath(std::string pathString, std::string station);
 
         void dijkstra(std::string start, std::string dest);
 };

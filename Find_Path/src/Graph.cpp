@@ -42,7 +42,7 @@ void Graph::processInputFile(std::string filename){
         auto counter = -1;
 
         std::string delimiter;
-        do{
+        while(endIndex < input.size()){
             //Check which delimiter to use based on current position in the string
             if(counter == 0) delimiter = ":";
             if(counter>0) delimiter = " \"";
@@ -55,7 +55,7 @@ void Graph::processInputFile(std::string filename){
 
             startIndex = endIndex + delimiter.size();
             counter++;
-        }while(endIndex < input.size());
+        }
 
         //Delete " from last entry, which is not removed by delimiters
         lineData.back().pop_back();
@@ -129,15 +129,12 @@ void Graph::dijkstra(std::string start, std::string dest){
     //Start Dijkstra-Search
     auto startTime = std::chrono::steady_clock::now();
 
-    std::unordered_map<std::string, int> costs;
-    std::unordered_map<std::string, bool> visited;
-    std::unordered_map<std::string, Station*> path;
     std::set<std::pair<int, std::string>> checkNext;
 
     //Insert start-node to
-    costs[start] = 0;
+    this->costs[start] = 0;
     checkNext.insert(std::make_pair(0, start));
-    path[start] = this->stations[start];
+    this->path[start] = this->stations[start];
 
     auto counter = 0;
 
@@ -146,24 +143,24 @@ void Graph::dijkstra(std::string start, std::string dest){
         auto distance = checkNext.begin()->first;
         auto stationName = checkNext.begin()->second;
 
-        ///setColor(3); std::cout << stationName << " via " << this->stations[stationName]->line << ": " << costs[stationName] << std::endl; setColor(7);
+        ///setColor(3); std::cout << stationName << " via " << this->stations[stationName]->line << ": " << this->costs[stationName] << std::endl; setColor(7);
 
         for(auto& adj : this->stations[stationName]->adjacentStations){
             //Check if Station has already been visited
             if(visited[adj->name]) continue;
 
             //Cost has not been initialised yet
-            if(costs[adj->name] == 0 && adj->name != start){
-                costs[adj->name] = distance + adj->cost;
-                checkNext.insert(std::make_pair(costs[adj->name], adj->name));
+            if(this->costs[adj->name] == 0 && adj->name != start){
+                this->costs[adj->name] = distance + adj->cost;
+                checkNext.insert(std::make_pair(this->costs[adj->name], adj->name));
                 //Insert to path
-                path[adj->name] = this->createNewStation(stationName, adj->line, adj->cost);
+                this->path[adj->name] = this->createNewStation(stationName, adj->line, adj->cost);
             }
 
             //Update Distance if necessary
             if((distance + adj->cost) < costs[adj->name]){
-                ///setColor(5); std::cout << "   [UPDATE] "; setColor(7); std::cout << adj->name << " from " << costs[adj->name] << " to " << distance+adj->cost << std::endl;
-                auto toUpdate = checkNext.find(std::make_pair(costs[adj->name], adj->name));
+                ///setColor(5); std::cout << "   [UPDATE] "; setColor(7); std::cout << adj->name << " from " << this->costs[adj->name] << " to " << distance+adj->cost << std::endl;
+                auto toUpdate = checkNext.find(std::make_pair(this->costs[adj->name], adj->name));
 
                 //Delete old entry from set
                 if(toUpdate != checkNext.end()){
@@ -171,10 +168,10 @@ void Graph::dijkstra(std::string start, std::string dest){
                 }
 
                 //Insert new entry with updated Cost
-                costs[adj->name] = distance + adj->cost;
-                checkNext.insert(std::make_pair(costs[adj->name], adj->name));
+                this->costs[adj->name] = distance + adj->cost;
+                checkNext.insert(std::make_pair(this->costs[adj->name], adj->name));
                 //Update path entry
-                path[adj->name] = this->createNewStation(stationName, adj->line, adj->cost);
+                this->path[adj->name] = this->createNewStation(stationName, adj->line, adj->cost);
             }
 
             ///std::cout << "   checking " << adj->name << " via " << adj->line << ": " << adj->cost << std::endl;
@@ -182,7 +179,7 @@ void Graph::dijkstra(std::string start, std::string dest){
         }
         //Remove pair with lowest distance from set and add it to visited
         checkNext.erase(checkNext.begin());
-        visited[stationName] = true;
+        this->visited[stationName] = true;
     }
     auto endTime = std::chrono::steady_clock::now();
     auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(endTime-startTime).count();
@@ -191,19 +188,20 @@ void Graph::dijkstra(std::string start, std::string dest){
     std::cout << "Start: " << start << std::endl;
     std::cout << "Destination: " << dest << std::endl;
     std::cout << "Total Cost: " << costs[dest] << std::endl;
-    setColor(8); std::cout << this->getPath("", path, dest) << std::endl; setColor(7);
+    setColor(8); std::cout << this->getPath("", dest) << std::endl; setColor(7);
 
     std::cout << "=========================" << std::endl;
     std::cout << "Checked Stations: " << counter << std::endl;
     std::cout << "Elapsed Time: " << elapsed << std::endl;
+    this->visited.clear();
 }
 
-std::string Graph::getPath(std::string pathString, std::unordered_map<std::string, Station*> path, std::string station){
+std::string Graph::getPath(std::string pathString, std::string station){
     //Check if start station is reached, since path(start) == start
-    if(station != path[station]->name){
+    if(station != this->path[station]->name){
         //Concatenate Stations to output-string
-        pathString = getPath(pathString, path, path[station]->name)
-                    + " =[ " + std::to_string(path[station]->cost) + " | ( " + path[station]->line + " ) ]=> [ "
+        pathString = getPath(pathString, this->path[station]->name)
+                    + " =[ " + std::to_string(this->path[station]->cost) + " | ( " + this->path[station]->line + " ) ]=> [ "
                     + station + " ]\n";
     }else{
         //Add first station
@@ -212,8 +210,6 @@ std::string Graph::getPath(std::string pathString, std::unordered_map<std::strin
     return pathString;
 }
 
-
 void Graph::setColor(int color){
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
 }
-
