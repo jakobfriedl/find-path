@@ -127,7 +127,7 @@ void Graph::dijkstra(std::string start, std::string dest){
     }
 
     //Start Dijkstra-Search
-    auto startTime = std::chrono::steady_clock::now();
+    auto startTime = std::chrono::high_resolution_clock::now();
 
     std::set<std::pair<int, std::string>> checkNext;
 
@@ -173,16 +173,14 @@ void Graph::dijkstra(std::string start, std::string dest){
                 //Update path entry
                 this->path[adj->name] = this->createNewStation(stationName, adj->line, adj->cost);
             }
-
-            ///std::cout << "   checking " << adj->name << " via " << adj->line << ": " << adj->cost << std::endl;
             counter++;
+            ///std::cout << "   checking " << adj->name << " via " << adj->line << ": " << adj->cost << std::endl;
         }
         //Remove pair with lowest distance from set and add it to visited
         checkNext.erase(checkNext.begin());
-        this->visited[stationName] = true;
     }
-    auto endTime = std::chrono::steady_clock::now();
-    auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(endTime-startTime).count();
+    auto endTime = std::chrono::high_resolution_clock::now();
+    auto elapsed = std::chrono::duration_cast<std::chrono::microseconds>(endTime-startTime).count();
 
     std::cout << "=========================" << std::endl;
     std::cout << "Start: " << start << std::endl;
@@ -191,8 +189,8 @@ void Graph::dijkstra(std::string start, std::string dest){
     setColor(8); std::cout << this->getPath("", dest) << std::endl; setColor(7);
 
     std::cout << "=========================" << std::endl;
-    std::cout << "Checked Stations: " << counter << std::endl;
-    std::cout << "Elapsed Time: " << elapsed << std::endl;
+    std::cout << "Checked Connections: " << counter << std::endl;
+    std::cout << "Elapsed Time: " << elapsed << " micro-seconds" << std::endl;
     this->visited.clear();
 }
 
