@@ -5,16 +5,10 @@
 
 Graph::Graph()
 {
-    #if DEBUG
-        std::cout << "Created Graph" << std::endl;
-    #endif // DEBUG
 }
 
 Graph::~Graph()
 {
-    #if DEBUG
-        std::cout << "Destroyed Graph" << std::endl;
-    #endif // DEBUG
 }
 
 Graph::Station* Graph::createNewStation(std::string name, std::string line, int cost){
@@ -47,6 +41,7 @@ void Graph::processInputFile(std::string filename){
             if(counter == 0) delimiter = ":";
             if(counter>0) delimiter = " \"";
             if(counter %2 == 0 && counter != 0) delimiter = "\" ";
+
             endIndex = input.find(delimiter, startIndex);
 
             //Add data to line-vector
@@ -74,7 +69,6 @@ void Graph::createAdjacencyList(std::vector<std::string> lineData){
     auto lineName = lineData.at(0);
     //Add station-information to adjacency-list
     for(auto i = 1; i < (int)lineData.size(); i+=2){
-        auto alreadyExists = false;
 
         auto current = this->createNewStation(lineData.at(i), lineName, 0);
 
@@ -98,9 +92,7 @@ void Graph::createAdjacencyList(std::vector<std::string> lineData){
                 for(const auto& station : current->adjacentStations){
                     this->stations[current->name]->adjacentStations.push_back(station);
                 }
-                alreadyExists = true;
-            }
-            if(!alreadyExists){
+            }else{
                 //Create new entry in adjacency-list for current station
                 this->stations[current->name] = current;
             }
@@ -178,6 +170,7 @@ void Graph::dijkstra(std::string start, std::string dest){
         }
         //Remove pair with lowest distance from set and add it to visited
         checkNext.erase(checkNext.begin());
+        this->visited[stationName] = true;
     }
     auto endTime = std::chrono::high_resolution_clock::now();
     auto elapsed = std::chrono::duration_cast<std::chrono::microseconds>(endTime-startTime).count();
@@ -191,7 +184,6 @@ void Graph::dijkstra(std::string start, std::string dest){
     std::cout << "=========================" << std::endl;
     std::cout << "Checked Connections: " << counter << std::endl;
     std::cout << "Elapsed Time: " << elapsed << " micro-seconds" << std::endl;
-    this->visited.clear();
 }
 
 std::string Graph::getPath(std::string pathString, std::string station){
