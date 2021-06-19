@@ -132,35 +132,35 @@ void Graph::dijkstra(std::string start, std::string dest){
     auto counter = 0;
 
     //Search until destination is found
-    while(checkNext.begin()->second != dest){
+    while(checkNext.begin()->second != dest){   // O(N) * O(M * log(N) = O(M * N * log(N))
         auto distance = checkNext.begin()->first;
         auto stationName = checkNext.begin()->second;
 
         ///setColor(3); std::cout << stationName << " via " << this->stations[stationName]->line << ": " << this->costs[stationName] << std::endl; setColor(7);
 
-        for(auto& adj : this->stations[stationName]->adjacentStations){
+        for(auto& adj : this->stations[stationName]->adjacentStations){ //O(M) * O(log(N) = O(M* log(N))
             //Check if Station has already been visited
-            if(visited[adj->name]) continue;
+            if(visited[adj->name]) continue; //O(1)
 
-            //Cost has not been initialised yet
+            //Cost has not been initialised yet // O(log(N))
             if(this->costs[adj->name] == 0 && adj->name != start){
                 this->costs[adj->name] = distance + adj->cost;
-                checkNext.insert(std::make_pair(this->costs[adj->name], adj->name));
+                checkNext.insert(std::make_pair(this->costs[adj->name], adj->name)); // O(log(N))
                 //Insert to path
                 this->path[adj->name] = this->createNewStation(stationName, adj->line, adj->cost);
             }
 
-            //Update Distance if necessary
+            //Update Distance if necessary  // O(log(N) + log(N)) = O(log(N))
             if((distance + adj->cost) < costs[adj->name]){
                 ///setColor(5); std::cout << "   [UPDATE] "; setColor(7); std::cout << adj->name << " from " << this->costs[adj->name] << " to " << distance+adj->cost << std::endl;
-                auto toUpdate = checkNext.find(std::make_pair(this->costs[adj->name], adj->name));
+                auto toUpdate = checkNext.find(std::make_pair(this->costs[adj->name], adj->name)); // O(log(N))
                 //Delete old entry from set
                 if(toUpdate != checkNext.end()){
                     checkNext.erase(toUpdate);
                 }
                 //Insert new entry with updated Cost
                 this->costs[adj->name] = distance + adj->cost;
-                checkNext.insert(std::make_pair(this->costs[adj->name], adj->name));
+                checkNext.insert(std::make_pair(this->costs[adj->name], adj->name)); // O(log(N))
                 //Update path entry
                 this->path[adj->name] = this->createNewStation(stationName, adj->line, adj->cost);
             }
@@ -168,7 +168,7 @@ void Graph::dijkstra(std::string start, std::string dest){
             ///std::cout << "   checking " << adj->name << " via " << adj->line << ": " << adj->cost << std::endl;
         }
         //Remove pair with lowest distance from set and add it to visited
-        checkNext.erase(checkNext.begin());
+        checkNext.erase(checkNext.begin()); // O(1)
         this->visited[stationName] = true;
     }
     auto endTime = std::chrono::high_resolution_clock::now();
@@ -178,6 +178,7 @@ void Graph::dijkstra(std::string start, std::string dest){
     std::cout << "Start: " << start << std::endl;
     std::cout << "Destination: " << dest << std::endl;
     std::cout << "Total Cost: " << costs[dest] << std::endl;
+
     //setColor(8); std::cout << this->getPath("", dest) << std::endl; setColor(7);
     setColor(8); printPath(dest); setColor(7);
 
