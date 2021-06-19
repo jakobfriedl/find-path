@@ -69,15 +69,16 @@ void Graph::createAdjacencyList(std::vector<std::string> lineData){
     auto lineName = lineData.at(0);
     //Add station-information to adjacency-list
     for(auto i = 1; i < (int)lineData.size(); i+=2){
-
         auto current = this->createNewStation(lineData.at(i), lineName, 0);
 
         //Add adjacent stations, if they exist
         if(i<=(int)lineData.size()-2){
+            //Next station
             auto next = this->createNewStation(lineData.at(i+2), lineName, std::stoi(lineData.at(i+1)));
             current->adjacentStations.push_back(next);
         }
         if(i>=3){
+            //Previous station
             auto previous = this->createNewStation(lineData.at(i-2), lineName, std::stoi(lineData.at(i-1)));
             current->adjacentStations.push_back(previous);
         }
@@ -153,12 +154,10 @@ void Graph::dijkstra(std::string start, std::string dest){
             if((distance + adj->cost) < costs[adj->name]){
                 ///setColor(5); std::cout << "   [UPDATE] "; setColor(7); std::cout << adj->name << " from " << this->costs[adj->name] << " to " << distance+adj->cost << std::endl;
                 auto toUpdate = checkNext.find(std::make_pair(this->costs[adj->name], adj->name));
-
                 //Delete old entry from set
                 if(toUpdate != checkNext.end()){
                     checkNext.erase(toUpdate);
                 }
-
                 //Insert new entry with updated Cost
                 this->costs[adj->name] = distance + adj->cost;
                 checkNext.insert(std::make_pair(this->costs[adj->name], adj->name));
@@ -179,14 +178,15 @@ void Graph::dijkstra(std::string start, std::string dest){
     std::cout << "Start: " << start << std::endl;
     std::cout << "Destination: " << dest << std::endl;
     std::cout << "Total Cost: " << costs[dest] << std::endl;
-    setColor(8); std::cout << this->getPath("", dest) << std::endl; setColor(7);
+    //setColor(8); std::cout << this->getPath("", dest) << std::endl; setColor(7);
+    setColor(8); printPath(dest); setColor(7);
 
     std::cout << "=========================" << std::endl;
     std::cout << "Checked Connections: " << counter << std::endl;
     std::cout << "Elapsed Time: " << elapsed << " micro-seconds" << std::endl;
 }
 
-std::string Graph::getPath(std::string pathString, std::string station){
+/*std::string Graph::getPath(std::string pathString, std::string station){
     //Check if start station is reached, since path(start) == start
     if(station != this->path[station]->name){
         //Concatenate Stations to output-string
@@ -198,6 +198,18 @@ std::string Graph::getPath(std::string pathString, std::string station){
         pathString = "[ " + station + " ]\n" + pathString;
     }
     return pathString;
+}*/
+
+void Graph::printPath(std::string station){
+    if(station == this->path[station]->name){
+        std::cout << "  [ " << station << " ]" << std::endl;
+        return;
+    }
+
+    printPath(this->path[station]->name);
+    std::cout << "  ==[ "; setColor(6); std::cout << this->path[station]->cost; setColor(8);
+    std::cout << " | ( "; setColor(7); std::cout << this->path[station]->line; setColor(8);
+    std::cout << " ) ]==>  [ " << station << " ]" << std::endl;
 }
 
 void Graph::setColor(int color){

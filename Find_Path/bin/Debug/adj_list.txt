@@ -1,223 +1,421 @@
-Aderklaaer Strasse
-   Rennbahnweg via U1 -- Costs: 1
-   Grossfeldsiedlung via U1 -- Costs: 1
 
-Adolf-Unger-Gasse
-   Stockholmer Platz via 67E -- Costs: 1
-   Hubert-Gsur-Gasse via 67E -- Costs: 1
+Franzensbruecke
+   Praterstern via O -- Costs: 2
+   Radetzkyplatz via O -- Costs: 1
+
+Marxergasse
+   Hintere Zollamtsstrasse via O -- Costs: 2
+   Landstrasse-Wien Mitte via O -- Costs: 1
+
+Sechskruegelgasse
+   Landstrasse-Wien Mitte via O -- Costs: 3
+   Ungargasse/Neulinggasse via O -- Costs: 1
+
+Koelblgasse
+   Rennweg via O -- Costs: 2
+   Fasangasse via O -- Costs: 2
+
+Columbusplatz
+   Hauptbahnhof via O -- Costs: 1
+   Laxenburger Strasse/Gudrunstrasse via O -- Costs: 2
+
+Laxenburger Strasse/Gudrunstrasse
+   Columbusplatz via O -- Costs: 2
+   Quellenplatz via O -- Costs: 2
+
+Migerkastrasse
+   Troststrasse/Neilreichgasse via O -- Costs: 1
+
+Sickenberggasse
+   Nussdorf via D -- Costs: 1
+   Grinzinger Strasse via D -- Costs: 2
+
+Gunoldstrasse
+   Heiligenstadt, 12.-Februar-Pl via D -- Costs: 1
+   Rampengasse via D -- Costs: 1
+
+Seegasse
+   Franz-Josefs-Bahnhof via D -- Costs: 2
+   Bauernfeldplatz via D -- Costs: 1
+
+Bauernfeldplatz
+   Seegasse via D -- Costs: 1
+   Schlickgasse via D -- Costs: 1
+
+Gusshausstrasse
+   Schwarzenbergplatz via D -- Costs: 2
+   Ploesslgasse via D -- Costs: 2
+
+Ploesslgasse
+   Gusshausstrasse via D -- Costs: 2
+   Schloss Belvedere via D -- Costs: 2
+
+Schloss Belvedere
+   Ploesslgasse via D -- Costs: 2
+   Quartier Belvedere via D -- Costs: 1
+
+Hauptbahnhof Ost
+   Quartier Belvedere via D -- Costs: 2
+   Alfred-Adler-Strasse via D -- Costs: 1
+
+Alfred-Adler-Strasse
+   Hauptbahnhof Ost via D -- Costs: 1
+
+Enkplatz U/Grillgasse
+   Braunhubergasse via 71 -- Costs: 1
+   Hauffgasse via 71 -- Costs: 2
+
+Molitorgasse
+   Zippererstrasse via 71 -- Costs: 1
+   Litfassstrasse via 71 -- Costs: 1
+
+Litfassstrasse
+   Molitorgasse via 71 -- Costs: 1
+   Sankt Marx via 71 -- Costs: 2
+
+Rennweg
+   Kleistgasse via 71 -- Costs: 1
+   Unteres Belvedere via 71 -- Costs: 2
+   Ungargasse/Neulinggasse via O -- Costs: 2
+   Koelblgasse via O -- Costs: 2
+
+Unteres Belvedere
+   Rennweg via 71 -- Costs: 2
+   Am Heumarkt via 71 -- Costs: 2
+
+Froedenplatz
+   Otto-Probst-Strasse via 67 -- Costs: 1
+   Wienerfeldgasse via 67 -- Costs: 1
+
+Sahulkastrasse
+   Wienerfeldgasse via 67 -- Costs: 1
+   Raxstrasse/Rudolfshuegelgasse via 67 -- Costs: 1
+
+Troststrasse/Neilreichgasse
+   Raxstrasse/Rudolfshuegelgasse via 67 -- Costs: 3
+   Laxenburger Strasse/Troststrasse via 67 -- Costs: 1
+   Laxenburger Strasse/Troststrasse via O -- Costs: 2
+   Migerkastrasse via O -- Costs: 1
+
+Per-Albin-Hansson-Siedlung
+   Alaudagasse via 67 -- Costs: 1
 
 Alaudagasse
    Stockholmer Platz via 67E -- Costs: 2
    Altes Landgut via 67 -- Costs: 3
    Per-Albin-Hansson-Siedlung via 67 -- Costs: 1
 
-Albertgasse
-   Lederergasse/Josefstaedter Strasse via 2 -- Costs: 1
-   Josefstaedter Strasse via 2 -- Costs: 1
-
-Alfred-Adler-Strasse
-   Hauptbahnhof Ost via D -- Costs: 1
-
-Alte Donau
-   Kaisermuehlen-VIC via U1 -- Costs: 2
-   Kagran via U1 -- Costs: 1
-
-Am Heidjoechl
-   Zanggasse via 26 -- Costs: 1
-   Hausfeldstrasse via 26 -- Costs: 1
-
-Anton-Schall-Gasse
-   Empergergasse via 30 -- Costs: 1
-   Van-Swieten-Kaserne via 30 -- Costs: 1
-
-Arbeiterg./Margaretenguertel
-   Eichenstrasse via 18 -- Costs: 2
-   Margaretenguertel via 18 -- Costs: 2
-
-Arthaberplatz
-   Quellenplatz via O -- Costs: 1
-   Laxenburger Strasse/Troststrasse via O -- Costs: 2
-
-Bahnsteggasse
-   Floridsdorfer Markt via 30 -- Costs: 1
-   Bruenner Strasse via 30 -- Costs: 2
-
-Barawitzkagasse
-   Pokornygasse via 37 -- Costs: 1
-   Perntergasse via 37 -- Costs: 2
-
-Blumengasse
-   Elterleinplatz via 9 -- Costs: 1
-   Vinzenzgasse via 9 -- Costs: 2
-
-Boerse
-   Schottentor via 71 -- Costs: 2
-
-Bruenner Strasse
-   Bahnsteggasse via 30 -- Costs: 2
-   Shuttleworthstrasse via 30 -- Costs: 1
-
-Bruenner Strasse/Hanreiterg.
-   Carabelligasse via 30 -- Costs: 1
-   Empergergasse via 30 -- Costs: 2
-
-Burggasse-Stadthalle
-   Urban-Loritz-Platz via 18 -- Costs: 1
-
-Burgring
-   Kaerntner Ring, Oper via 2 -- Costs: 2
-   Dr.-Karl-Renner-Ring via 2 -- Costs: 2
-
-Canisiusgasse
-   Nussdorfer Strasse/Alserbachstrasse via 37 -- Costs: 2
-   Nussdorfer Strasse via 37 -- Costs: 1
-
-Carabelligasse
-   Grossjedlersdorf via 30 -- Costs: 2
-   Bruenner Strasse/Hanreiterg. via 30 -- Costs: 1
-
-Columbusplatz
-   Hauptbahnhof via O -- Costs: 1
-   Laxenburger Strasse/Gudrunstrasse via O -- Costs: 2
-
-Davidgasse
-   Knoellgasse via 1 -- Costs: 1
-   Troststrasse via 1 -- Costs: 2
-
-Doeblinger Hptstrasse/Gatterburgg.
-   Guneschgasse via 37 -- Costs: 1
-   Pokornygasse via 37 -- Costs: 1
-
-Dommayergasse
-   Gloriettegasse via 10 -- Costs: 2
-   Hietzing, Kennedybruecke via 10 -- Costs: 2
-
-Donauinsel
-   Vorgartenstrasse via U1 -- Costs: 2
-   Kaisermuehlen-VIC via U1 -- Costs: 1
-
-Dr.-Karl-Renner-Ring
-   Burgring via 2 -- Costs: 2
-   Rathaus via 2 -- Costs: 2
-   Volkstheater via 49 -- Costs: 2
-
-Dresdner Strasse
-   Jaegerstrasse via U6 -- Costs: 2
-   Handelskai via U6 -- Costs: 1
-
-Eichenstrasse
-   Matzleinsdorfer Platz via 18 -- Costs: 2
-   Arbeiterg./Margaretenguertel via 18 -- Costs: 2
-
-Elterleinplatz
-   Rosensteingasse via 9 -- Costs: 2
-   Blumengasse via 9 -- Costs: 1
-
-Empergergasse
-   Bruenner Strasse/Hanreiterg. via 30 -- Costs: 2
-   Anton-Schall-Gasse via 30 -- Costs: 1
-
-Enkplatz
-   Zippererstrasse via U3 -- Costs: 1
-   Simmering via U3 -- Costs: 1
-
-Erdberg
-   Schlachthausgasse via U3 -- Costs: 1
-   Gasometer via U3 -- Costs: 2
-
-Fickeysstrasse
-   Simmering via 6 -- Costs: 1
-   Weissenboeckstrasse via 6 -- Costs: 2
-
-Floridsdorf
-   Neue Donau via U6 -- Costs: 2
-   Hossplatz via 25 -- Costs: 4
-   Floridsdorfer Markt via 30 -- Costs: 5
-
-Floridsdorfer Markt
-   Floridsdorf via 30 -- Costs: 5
-   Bahnsteggasse via 30 -- Costs: 1
-
-Forstnergasse
-   Kraygasse via 26 -- Costs: 1
-   Gewerbepark Stadlau via 26 -- Costs: 2
-
-Friedensbruecke
-   Rossauerlaende via U4 -- Costs: 1
-   Spittelau via U4 -- Costs: 1
-
-Gasometer
-   Erdberg via U3 -- Costs: 2
-   Zippererstrasse via U3 -- Costs: 1
-
-Gersthof
-   Simonygasse via 9 -- Costs: 1
-   Schoeffelgasse via 9 -- Costs: 2
-
-Gewerbepark Stadlau
-   Forstnergasse via 26 -- Costs: 2
-   Suessenbrunner Str/Oberfeldgasse via 26 -- Costs: 1
-
-Glatzgasse
-   Nussdorfer Strasse via 37 -- Costs: 2
-   Guneschgasse via 37 -- Costs: 1
-
-Gloriettegasse
-   Stadlergasse via 10 -- Costs: 1
-   Dommayergasse via 10 -- Costs: 2
-
-Grossfeldsiedlung
-   Aderklaaer Strasse via U1 -- Costs: 1
-   Leopoldau via U1 -- Costs: 2
-
-Grossjedlersdorf
-   Shuttleworthstrasse via 30 -- Costs: 1
-   Carabelligasse via 30 -- Costs: 2
-
-Gumpendorfer Strasse
-   Margaretenguertel via 18 -- Costs: 1
-   Mariahilfer Guertel via 18 -- Costs: 2
-
-Guneschgasse
-   Glatzgasse via 37 -- Costs: 1
-   Doeblinger Hptstrasse/Gatterburgg. via 37 -- Costs: 1
-
-Gusshausstrasse
-   Schwarzenbergplatz via D -- Costs: 2
-   Ploesslgasse via D -- Costs: 2
-
-Handelskai
-   Dresdner Strasse via U6 -- Costs: 1
-   Neue Donau via U6 -- Costs: 2
-
-Hauptbahnhof
-   Quartier Belvedere via O -- Costs: 3
-   Columbusplatz via O -- Costs: 1
-
-Hauptbahnhof Ost
-   Quartier Belvedere via D -- Costs: 2
-   Alfred-Adler-Strasse via D -- Costs: 1
-
-Hausfeldstrasse
-   Am Heidjoechl via 26 -- Costs: 1
-
-Heiligenstadt
-   Spittelau via U4 -- Costs: 2
-
-Hietzing, Kennedybruecke
-   Dommayergasse via 10 -- Costs: 2
-   Dommayergasse via 60 -- Costs: 1
-
-Hofwiesengasse
-   Wattmanngasse via 10 -- Costs: 1
-   Preyergasse via 10 -- Costs: 1
-
-Hohe Warte
-   Perntergasse via 37 -- Costs: 1
+Stockholmer Platz
+   Alaudagasse via 67E -- Costs: 2
+   Adolf-Unger-Gasse via 67E -- Costs: 1
 
 Hubert-Gsur-Gasse
    Adolf-Unger-Gasse via 67E -- Costs: 1
    Per-Albin-Hansson-Sdlg. Ost via 67E -- Costs: 1
+
+Oberlaa - Therme Wien
+   Laaer-Berg-Strasse via 67E -- Costs: 2
+
+Lainz, Wolkersbergenstrasse
+   Versorgungsheimplatz via 62 -- Costs: 1
+
+Versorgungsheimplatz
+   Lainz, Wolkersbergenstrasse via 62 -- Costs: 1
+   Krankenhaus Hietzing via 62 -- Costs: 1
+
+Krankenhaus Hietzing
+   Versorgungsheimplatz via 62 -- Costs: 1
+   Hermesstrasse via 62 -- Costs: 1
+
+Atzgersdorfer Strasse
+   Wattmanngasse via 62 -- Costs: 2
+   Rosenhuegelstrasse via 62 -- Costs: 2
+
+Rosenhuegelstrasse
+   Atzgersdorfer Strasse via 62 -- Costs: 2
+   Schloss Hetzendorf via 62 -- Costs: 1
+
+Assmayergasse
+   Doerfelstrasse via 62 -- Costs: 2
+   Flurschuetzstrasse/Laengenfeldg. via 62 -- Costs: 1
+
+Marx-Meidlinger-Strasse
+   Flurschuetzstrasse/Laengenfeldg. via 62 -- Costs: 1
+   Eichenstrasse via 62 -- Costs: 2
+
+Rodaun
+   Kaiser-Franz-Josef-Strasse via 60 -- Costs: 2
+
+Anton-Krieger-Gasse
+   Breitenfurter Str/Liesingbr via 60 -- Costs: 1
+   Maurer-Lange-Gasse via 60 -- Costs: 1
+
+Maurer Hauptplatz
+   Maurer-Lange-Gasse via 60 -- Costs: 1
+   Franz-Asenbauer-Gasse via 60 -- Costs: 2
+
+Ungargasse/Neulinggasse
+   Sechskruegelgasse via O -- Costs: 1
+   Rennweg via O -- Costs: 2
+
+Franz-Asenbauer-Gasse
+   Maurer Hauptplatz via 60 -- Costs: 2
+   Sillerplatz via 60 -- Costs: 2
+
+Sillerplatz
+   Franz-Asenbauer-Gasse via 60 -- Costs: 2
+   Riedelgasse via 60 -- Costs: 2
+
+Speising, Hermesstrasse
+   Riedelgasse via 60 -- Costs: 1
+   Hofwiesengasse via 60 -- Costs: 2
+
+Hummelgasse
+   Verbindungsbahn via 58 -- Costs: 1
+
+Schloss Schoenbrunn
+   Hietzing, Kennedybruecke via 58 -- Costs: 2
+   Penzinger Strasse via 58 -- Costs: 1
+
+Hochsatzengasse/Linzer Strasse
+   Baumgarten via 52 -- Costs: 1
+   Gruschaplatz via 52 -- Costs: 2
+
+Zehetnergasse/Linzer Strasse
+   Gruschaplatz via 52 -- Costs: 1
+   Gusenleithnergasse via 52 -- Costs: 1
+
+Diesterweggasse
+   Ameisgasse via 52 -- Costs: 2
+   Linzer Strasse/Reinlgasse via 52 -- Costs: 1
+
+Linzer Strasse/Reinlgasse
+   Diesterweggasse via 52 -- Costs: 1
+   Johnstrasse/Linzer Strasse via 52 -- Costs: 1
+
+Johnstrasse/Linzer Strasse
+   Linzer Strasse/Reinlgasse via 52 -- Costs: 1
+   Penzinger Strasse via 52 -- Costs: 2
+
+Winckelmannstrasse
+   Penzinger Strasse via 52 -- Costs: 2
+   Anschuetzgasse via 52 -- Costs: 1
+   Penzinger Strasse via 58 -- Costs: 2
+   Anschuetzgasse via 58 -- Costs: 1
+
+Anschuetzgasse
+   Winckelmannstrasse via 52 -- Costs: 1
+   Rustengasse via 52 -- Costs: 1
+   Winckelmannstrasse via 58 -- Costs: 1
+   Rustengasse via 58 -- Costs: 1
+
+Staglgasse
+   Kranzgasse via 52 -- Costs: 2
+   Gerstnerstrasse/Westbhf. via 52 -- Costs: 1
+   Kranzgasse via 58 -- Costs: 2
+   Gerstnerstrasse/Westbhf. via 58 -- Costs: 1
+
+Gerstnerstrasse/Westbhf.
+   Staglgasse via 52 -- Costs: 1
+   Westbahnhof via 52 -- Costs: 1
+   Staglgasse via 58 -- Costs: 1
+   Westbahnhof via 58 -- Costs: 1
+
+Huetteldorf, Bujattigasse
+   Bahnhofstrasse via 49 -- Costs: 2
+
+Bahnhofstrasse
+   Huetteldorf, Bujattigasse via 49 -- Costs: 2
+   Baumgarten via 49 -- Costs: 2
+
+Baumgarten
+   Bahnhofstrasse via 49 -- Costs: 2
+   Hochsatzeng./Huetteldorfer Strasse via 49 -- Costs: 1
+   Hochsatzengasse/Linzer Strasse via 52 -- Costs: 1
+
+Rustengasse
+   Anschuetzgasse via 52 -- Costs: 1
+   Kranzgasse via 52 -- Costs: 1
+   Anschuetzgasse via 58 -- Costs: 1
+   Kranzgasse via 58 -- Costs: 1
+
+Hochsatzeng./Huetteldorfer Strasse
+   Baumgarten via 49 -- Costs: 1
+   Waidhausenstrasse via 49 -- Costs: 1
+
+Waidhausenstrasse
+   Hochsatzeng./Huetteldorfer Strasse via 49 -- Costs: 1
+   Seckendorfstrasse via 49 -- Costs: 1
+
+Seckendorfstrasse
+   Waidhausenstrasse via 49 -- Costs: 1
+   Huetteldorfer Strasse/Luetzowg. via 49 -- Costs: 2
+
+Huetteldorfer Strasse/Luetzowg.
+   Seckendorfstrasse via 49 -- Costs: 2
+   Leyserstrasse via 49 -- Costs: 2
+
+Oberzellergasse
+   Sankt Marx via 71 -- Costs: 2
+   Kleistgasse via 71 -- Costs: 1
+
+Leyserstrasse
+   Huetteldorfer Strasse/Luetzowg. via 49 -- Costs: 2
+   Breitensee via 49 -- Costs: 1
+
+Fickeysstrasse
+   Simmering via 6 -- Costs: 1
+   Weissenboeckstrasse via 6 -- Costs: 2
+   Weissenboeckstrasse via 71 -- Costs: 2
+   Simmering via 71 -- Costs: 2
+
+Weissenboeckstrasse
+   Fickeysstrasse via 6 -- Costs: 2
+   Zentralfriedhof 1.Tor via 6 -- Costs: 2
+   Zentralfriedhof 1.Tor via 71 -- Costs: 1
+   Fickeysstrasse via 71 -- Costs: 2
+
+Russbergstrasse
+   Edmund-Hawranek-Platz via 26 -- Costs: 1
+   Autokaderstrasse via 26 -- Costs: 3
+
+Boersegasse/Wipplingerstrasse
+   Schlickgasse via D -- Costs: 1
+   Schottentor via D -- Costs: 2
+
+Am Heumarkt
+   Unteres Belvedere via 71 -- Costs: 2
+   Schwarzenbergplatz via 71 -- Costs: 1
+
+Breitensee
+   Leyserstrasse via 49 -- Costs: 1
+   Huetteldorfer Strasse via 49 -- Costs: 2
+
+Roemergasse
+   Wilhelminenstrasse/Sandleiteng. via 44 -- Costs: 1
+   Wilhelminenstrasse/Wattg. via 44 -- Costs: 1
+
+Zentralfriedhof 2.Tor
+   Zentralfriedhof 1.Tor via 6 -- Costs: 2
+   Zentralfriedhof 3.Tor via 6 -- Costs: 1
+   Zentralfriedhof 3.Tor via 71 -- Costs: 2
+   Zentralfriedhof 1.Tor via 71 -- Costs: 1
+
+Wienerfeldgasse
+   Froedenplatz via 67 -- Costs: 1
+   Sahulkastrasse via 67 -- Costs: 1
+
+Leberberg
+   Pantucekgasse/Widholzgasse via 6 -- Costs: 1
+   Svetelskystrasse via 6 -- Costs: 1
+
+Stadlau
+   Hardeggasse via U2 -- Costs: 1
+   Donaustadtbruecke via U2 -- Costs: 2
+
+Svetelskystrasse
+   Leberberg via 6 -- Costs: 1
+   Valiergasse via 6 -- Costs: 1
+
+Lerchenfelder Strasse
+   Kaiserstrasse/Neustiftgasse via 5 -- Costs: 1
+   Blindengasse via 5 -- Costs: 2
+
+Klosterneubg S./Wallensteinstrasse
+   Friedensbruecke via 5 -- Costs: 2
+   Wallensteinplatz via 5 -- Costs: 1
+
+Stollgasse
+   Westbahnhof via 5 -- Costs: 2
+   Kaiserstrasse/Westbahnstrasse via 5 -- Costs: 2
+
+Heiligenstadt
+   Spittelau via U4 -- Costs: 2
+
+Franz-Josefs-Bahnhof
+   Nussdorfer Strasse/Alserbachstrasse via 5 -- Costs: 2
+   Friedensbruecke via 5 -- Costs: 2
+   Friedensbruecke via 33 -- Costs: 2
+   Nussdorfer Strasse/Alserbachstrasse via 33 -- Costs: 2
+   Althanstrasse via D -- Costs: 1
+   Seegasse via D -- Costs: 2
+
+Lazarettgasse
+   Lange Gasse via 5 -- Costs: 2
+   Spitalgasse/Waehringer Strasse via 5 -- Costs: 1
+   Spitalgasse/Waehringer Strasse via 33 -- Costs: 2
+   Lange Gasse via 33 -- Costs: 2
+
+Aderklaaer Strasse
+   Rennbahnweg via U1 -- Costs: 1
+   Grossfeldsiedlung via U1 -- Costs: 1
+
+Huetteldorf
+   Ober Sankt Veit via U4 -- Costs: 2
+
+Rauscherstrasse
+   Wallensteinplatz via 5 -- Costs: 2
+   Nordwestbahnstrasse via 5 -- Costs: 1
+
+Ottakringer Strasse/Wattgasse
+   J.-Nepomuk-Berger-Platz via 2 -- Costs: 1
+   Redtenbachergasse via 2 -- Costs: 2
+
+Kaiserstrasse/Burggasse
+   Kaiserstrasse/Westbahnstrasse via 5 -- Costs: 1
+   Kaiserstrasse/Neustiftgasse via 5 -- Costs: 1
+
+Nussdorfer Strasse/Alserbachstrasse
+   Spitalgasse/Waehringer Strasse via 5 -- Costs: 2
+   Franz-Josefs-Bahnhof via 5 -- Costs: 2
+   Franz-Josefs-Bahnhof via 33 -- Costs: 2
+   Spitalgasse/Waehringer Strasse via 33 -- Costs: 2
+   Spitalgasse/Waehringer Strasse via 37 -- Costs: 1
+   Canisiusgasse via 37 -- Costs: 2
+   Canisiusgasse via 38 -- Costs: 1
+   Spitalgasse/Waehringer Strasse via 38 -- Costs: 2
+
+Rebhanngasse
+   Innstrasse via 2 -- Costs: 1
+   Am Tabor via 2 -- Costs: 1
+
+Am Tabor
+   Rebhanngasse via 2 -- Costs: 1
+   Taborstrasse/Heinestrasse via 2 -- Costs: 1
+   Nordwestbahnstrasse via 5 -- Costs: 1
+   Nordbahnstrasse via 5 -- Costs: 2
+
+Valiergasse
+   Svetelskystrasse via 6 -- Costs: 1
+   Kaiserebersdorf, Zinnergasse via 6 -- Costs: 2
+
+Herbeckstrasse
+   Eckpergasse via 40 -- Costs: 1
+
+Taborstrasse/Heinestrasse
+   Am Tabor via 2 -- Costs: 1
+   Taborstrasse via 2 -- Costs: 2
+
+Karmeliterplatz
+   Taborstrasse via 2 -- Costs: 1
+   Gredlerstrasse via 2 -- Costs: 1
+
+Lederergasse/Josefstaedter Strasse
+   Rathaus via 2 -- Costs: 2
+   Albertgasse via 2 -- Costs: 1
+
+Hausfeldstrasse
+   Am Heidjoechl via 26 -- Costs: 1
+
+Lange Gasse
+   Laudongasse via 5 -- Costs: 2
+   Lazarettgasse via 5 -- Costs: 2
+   Lazarettgasse via 33 -- Costs: 2
+   Laudongasse via 33 -- Costs: 1
+   Skodagasse via 43 -- Costs: 1
+   Landesgerichtsstrasse via 43 -- Costs: 1
+   Skodagasse via 44 -- Costs: 1
+   Landesgerichtsstrasse via 44 -- Costs: 1
 
 J.-Nepomuk-Berger-Platz
    Neulerchenf. Strasse/Haberlgasse via 2 -- Costs: 2
@@ -225,273 +423,396 @@ J.-Nepomuk-Berger-Platz
    Thaliastrasse/Fesstgasse via 9 -- Costs: 1
    Mayssengasse via 9 -- Costs: 2
 
-Jaegerstrasse
-   Spittelau via U6 -- Costs: 1
-   Dresdner Strasse via U6 -- Costs: 2
+Thaliastrasse/Maroltingergasse
+   Ottakring via 2 -- Costs: 1
+   Ottakringer Strasse/Erdbrustgasse via 2 -- Costs: 2
 
-Jagdschlossgasse
-   Preyergasse via 10 -- Costs: 2
-   Stadlergasse via 10 -- Costs: 2
+Loewengasse
+   Wittelsbachstrasse via 1 -- Costs: 2
+   Hetzgasse via 1 -- Costs: 1
 
-Joachimsthalerplatz
-   Rankgasse via 46 -- Costs: 1
+Nordwestbahnstrasse
+   Rauscherstrasse via 5 -- Costs: 1
+   Am Tabor via 5 -- Costs: 1
 
-Johann-Straus-Gasse
-   Mayerhofgasse via 1 -- Costs: 1
-   Laurenzgasse via 1 -- Costs: 2
+Weihburggasse
+   Stubentor via 2 -- Costs: 1
+   Schwarzenbergplatz via 2 -- Costs: 2
 
-Josefstaedter Strasse
-   Albertgasse via 2 -- Costs: 1
-   Neulerchenf. Strasse/Brunnengasse via 2 -- Costs: 2
-   Albertgasse via 33 -- Costs: 3
+Traisengasse
+   Dresdner Strasse via 2 -- Costs: 2
+   Innstrasse via 2 -- Costs: 1
+
+Boerse
+   Schottenring via 1 -- Costs: 1
+   Schottentor via 1 -- Costs: 2
+   Schottentor via 71 -- Costs: 2
+
+Kaiserstrasse/Neustiftgasse
+   Kaiserstrasse/Burggasse via 5 -- Costs: 1
+   Lerchenfelder Strasse via 5 -- Costs: 1
+
+Dr.-Karl-Renner-Ring
+   Stadiongasse/Parlament via 1 -- Costs: 2
+   Burgring via 1 -- Costs: 1
+   Burgring via 2 -- Costs: 2
+   Rathaus via 2 -- Costs: 2
+   Schmerlingplatz via 46 -- Costs: 1
+   Volkstheater via 49 -- Costs: 2
+   Burgring via 71 -- Costs: 1
+   Stadiongasse/Parlament via 71 -- Costs: 2
+   Stadiongasse/Parlament via D -- Costs: 2
+   Burgring via D -- Costs: 1
+
+Arthaberplatz
+   Laxenburger Strasse/Troststrasse via 67 -- Costs: 3
+   Quellenplatz via 67 -- Costs: 1
+   Quellenplatz via O -- Costs: 1
+   Laxenburger Strasse/Troststrasse via O -- Costs: 2
+
+Burgring
+   Dr.-Karl-Renner-Ring via 1 -- Costs: 1
+   Kaerntner Ring, Oper via 1 -- Costs: 2
+   Kaerntner Ring, Oper via 2 -- Costs: 2
+   Dr.-Karl-Renner-Ring via 2 -- Costs: 2
+   Kaerntner Ring, Oper via 71 -- Costs: 2
+   Dr.-Karl-Renner-Ring via 71 -- Costs: 1
+   Dr.-Karl-Renner-Ring via D -- Costs: 1
+   Kaerntner Ring, Oper via D -- Costs: 2
+
+Halteraugasse
+   Grinzinger Strasse via D -- Costs: 1
+   Heiligenstadt, 12.-Februar-Pl via D -- Costs: 1
+
+Otto-Probst-Strasse
+   Tesarekplatz via 67 -- Costs: 1
+   Froedenplatz via 67 -- Costs: 1
 
 Kaerntner Ring, Oper
+   Burgring via 1 -- Costs: 2
+   Karlsplatz via 1 -- Costs: 3
    Schwarzenbergplatz via 2 -- Costs: 2
    Burgring via 2 -- Costs: 2
    Resselgasse via 62 -- Costs: 2
-
-Kagran
-   Alte Donau via U1 -- Costs: 1
-   Kagraner Platz via U1 -- Costs: 2
-
-Kagraner Platz
-   Kagran via U1 -- Costs: 2
-   Rennbahnweg via U1 -- Costs: 2
-   Saikogasse via 26 -- Costs: 1
-   Kraygasse via 26 -- Costs: 2
-
-Kaiserebersdorf, Zinnergasse
-   Valiergasse via 6 -- Costs: 2
-
-Kaisermuehlen-VIC
-   Donauinsel via U1 -- Costs: 1
-   Alte Donau via U1 -- Costs: 2
-
-Kardinal-Nagl-Platz
-   Rochusgasse via U3 -- Costs: 1
-   Schlachthausgasse via U3 -- Costs: 1
-
-Karlsplatz
-   Taubstummengasse via U1 -- Costs: 2
-   Stephansplatz via U1 -- Costs: 2
-   Museumsquartier via U2 -- Costs: 1
-   Kaerntner Ring, Oper via 1 -- Costs: 3
-   Resselgasse via 1 -- Costs: 1
-
-Keplerplatz
-   Reumannplatz via U1 -- Costs: 1
-   Suedtirolerplatz via U1 -- Costs: 2
-
-Kliebergasse
-   Laurenzgasse via 1 -- Costs: 1
-   Matzleinsdorfer Platz via 1 -- Costs: 2
-
-Knoellgasse
-   Matzleinsdorfer Platz via 1 -- Costs: 1
-   Davidgasse via 1 -- Costs: 1
-
-Kraygasse
-   Kagraner Platz via 26 -- Costs: 2
-   Forstnergasse via 26 -- Costs: 1
-
-Laaer-Berg-Strasse
-   Per-Albin-Hansson-Sdlg. Ost via 67E -- Costs: 1
-   Oberlaa - Therme Wien via 67E -- Costs: 2
-
-Landstrasse
-   Stubentor via U3 -- Costs: 1
-   Rochusgasse via U3 -- Costs: 2
-
-Laurenzgasse
-   Johann-Straus-Gasse via 1 -- Costs: 2
-   Kliebergasse via 1 -- Costs: 1
-
-Laxenburger Strasse/Gudrunstrasse
-   Columbusplatz via O -- Costs: 2
-   Quellenplatz via O -- Costs: 2
-
-Laxenburger Strasse/Troststrasse
-   Arthaberplatz via O -- Costs: 2
-   Troststrasse/Neilreichgasse via O -- Costs: 2
-
-Leberberg
-   Pantucekgasse/Widholzgasse via 6 -- Costs: 1
-   Svetelskystrasse via 6 -- Costs: 1
-
-Lederergasse/Josefstaedter Strasse
-   Rathaus via 2 -- Costs: 2
-   Albertgasse via 2 -- Costs: 1
-
-Leopoldau
-   Grossfeldsiedlung via U1 -- Costs: 2
-
-Margaretenguertel
-   Arbeiterg./Margaretenguertel via 18 -- Costs: 2
-   Gumpendorfer Strasse via 18 -- Costs: 1
-
-Mariahilfer Guertel
-   Gumpendorfer Strasse via 18 -- Costs: 2
-   Westbahnhof via 18 -- Costs: 1
-
-Matzleinsdorfer Platz
-   Kliebergasse via 1 -- Costs: 2
-   Knoellgasse via 1 -- Costs: 1
-   Kliebergasse via 18 -- Costs: 2
-   Eichenstrasse via 18 -- Costs: 2
-
-Mayerhofgasse
-   Paulanergasse via 1 -- Costs: 2
-   Johann-Straus-Gasse via 1 -- Costs: 1
-
-Mayssengasse
-   J.-Nepomuk-Berger-Platz via 9 -- Costs: 2
-   Rosensteingasse via 9 -- Costs: 2
-
-Migerkastrasse
-   Troststrasse/Neilreichgasse via O -- Costs: 1
-
-Nestroyplatz
-   Schwedenplatz via U1 -- Costs: 1
-   Praterstern via U1 -- Costs: 1
-
-Neue Donau
-   Handelskai via U6 -- Costs: 2
-   Floridsdorf via U6 -- Costs: 2
-
-Neulerchenf. Strasse/Brunnengasse
-   Josefstaedter Strasse via 2 -- Costs: 2
-   Neulerchenf. Strasse/Haberlgasse via 2 -- Costs: 1
+   Schwarzenbergplatz via 71 -- Costs: 3
+   Burgring via 71 -- Costs: 2
+   Burgring via D -- Costs: 2
+   Schwarzenbergplatz via D -- Costs: 3
 
 Neulerchenf. Strasse/Haberlgasse
    Neulerchenf. Strasse/Brunnengasse via 2 -- Costs: 1
    J.-Nepomuk-Berger-Platz via 2 -- Costs: 2
 
-Nussdorfer Strasse
-   Canisiusgasse via 37 -- Costs: 1
-   Glatzgasse via 37 -- Costs: 2
+Klosterneuburger Strasse
+   Wallensteinplatz via 33 -- Costs: 2
+   Friedensbruecke via 33 -- Costs: 1
 
-Nussdorfer Strasse/Alserbachstrasse
-   Spitalgasse/Waehringer Strasse via 37 -- Costs: 1
-   Canisiusgasse via 37 -- Costs: 2
+Barawitzkagasse
+   Pokornygasse via 37 -- Costs: 1
+   Perntergasse via 37 -- Costs: 2
 
-Oberlaa - Therme Wien
-   Laaer-Berg-Strasse via 67E -- Costs: 2
+Stadiongasse/Parlament
+   Rathausplatz/Burgtheater via 1 -- Costs: 1
+   Dr.-Karl-Renner-Ring via 1 -- Costs: 2
+   Dr.-Karl-Renner-Ring via 71 -- Costs: 2
+   Rathausplatz/Burgtheater via 71 -- Costs: 1
+   Rathausplatz/Burgtheater via D -- Costs: 1
+   Dr.-Karl-Renner-Ring via D -- Costs: 2
 
-Ottakring
-   Redtenbachergasse via 2 -- Costs: 5
-   Thaliastrasse/Maroltingergasse via 2 -- Costs: 1
+Radetzkyplatz
+   Hetzgasse via 1 -- Costs: 1
+   Hintere Zollamtsstrasse via 1 -- Costs: 2
+   Franzensbruecke via O -- Costs: 1
+   Hintere Zollamtsstrasse via O -- Costs: 2
+
+Hardtgasse
+   Gatterburggasse via 38 -- Costs: 1
+   Glatzgasse via 38 -- Costs: 2
+
+Schmerlingplatz
+   Dr.-Karl-Renner-Ring via 46 -- Costs: 1
+   Auerspergstrasse via 46 -- Costs: 1
+
+Shuttleworthstrasse
+   Bruenner Strasse via 31 -- Costs: 1
+   Grossjedlersdorf via 31 -- Costs: 1
+
+Thaliastrasse/Fesstgasse
+   Koppstrasse/Panikengasse via 9 -- Costs: 2
+   J.-Nepomuk-Berger-Platz via 9 -- Costs: 1
+   Thaliastrasse/Haberlgasse via 46 -- Costs: 1
    Schuhmeierplatz via 46 -- Costs: 2
-   Thaliastrasse/Maroltingerg. via 46 -- Costs: 1
 
-Ottakringer Strasse/Erdbrustgasse
-   Thaliastrasse/Maroltingergasse via 2 -- Costs: 2
+Erndtgasse
+   Gersthf. Strasse/Scheibenbergstrasse via 41 -- Costs: 1
+   Tuerkenschanzplatz via 41 -- Costs: 1
 
-Ottakringer Strasse/Wattgasse
-   J.-Nepomuk-Berger-Platz via 2 -- Costs: 1
-   Redtenbachergasse via 2 -- Costs: 2
-
-Pantucekgasse/Widholzgasse
-   Zentralfriedhof 4.Tor via 6 -- Costs: 2
-   Leberberg via 6 -- Costs: 1
+Hetzendorf
+   Schloss Hetzendorf via 62 -- Costs: 2
+   Sonnergasse via 62 -- Costs: 3
 
 Paulanergasse
    Resselgasse via 1 -- Costs: 1
    Mayerhofgasse via 1 -- Costs: 2
+   Mayerhofgasse via 62 -- Costs: 2
+   Resselgasse via 62 -- Costs: 1
 
-Per-Albin-Hansson-Sdlg. Ost
-   Hubert-Gsur-Gasse via 67E -- Costs: 1
-   Laaer-Berg-Strasse via 67E -- Costs: 1
+Johann-Strauss-Gasse
+   Mayerhofgasse via 1 -- Costs: 1
+   Laurenzgasse via 1 -- Costs: 2
+   Laurenzgasse via 62 -- Costs: 1
+   Mayerhofgasse via 62 -- Costs: 1
 
-Per-Albin-Hansson-Siedlung
-   Alaudagasse via 67 -- Costs: 1
+Matzleinsdorfer Platz
+   Kliebergasse via 1 -- Costs: 2
+   Knoellgasse via 1 -- Costs: 1
+   Eichenstrasse via 6 -- Costs: 2
+   Knoellgasse via 6 -- Costs: 2
+   Kliebergasse via 18 -- Costs: 2
+   Eichenstrasse via 18 -- Costs: 2
+   Eichenstrasse via 62 -- Costs: 2
+   Kliebergasse via 62 -- Costs: 2
 
-Perntergasse
-   Barawitzkagasse via 37 -- Costs: 2
-   Hohe Warte via 37 -- Costs: 1
+Alte Donau
+   Kaisermuehlen-VIC via U1 -- Costs: 2
+   Kagran via U1 -- Costs: 1
 
-Ploesslgasse
-   Gusshausstrasse via D -- Costs: 2
-   Schloss Belvedere via D -- Costs: 2
+Knoellgasse
+   Matzleinsdorfer Platz via 1 -- Costs: 1
+   Davidgasse via 1 -- Costs: 1
+   Matzleinsdorfer Platz via 6 -- Costs: 2
+   Bernhardtstalgasse via 6 -- Costs: 1
 
-Pokornygasse
-   Doeblinger Hptstrasse/Gatterburgg. via 37 -- Costs: 1
-   Barawitzkagasse via 37 -- Costs: 1
+Winkelaeckerstrasse
+   Autokaderstrasse via 26 -- Costs: 1
+   Hopfengasse via 26 -- Costs: 1
 
-Praterstern
-   Nestroyplatz via U1 -- Costs: 1
-   Vorgartenstrasse via U1 -- Costs: 1
-   Nordbahnstrasse via 5 -- Costs: 2
+Innstrasse
+   Traisengasse via 2 -- Costs: 1
+   Rebhanngasse via 2 -- Costs: 1
 
-Preyergasse
+Bernhardtstalgasse
+   Knoellgasse via 6 -- Costs: 1
+   Neilreichgasse via 6 -- Costs: 1
+
+Davidgasse
+   Knoellgasse via 1 -- Costs: 1
+   Troststrasse via 1 -- Costs: 2
+
+Siebenhirten
+   Perfektastrasse via U6 -- Costs: 2
+
+Sonnergasse
+   Hetzendorf via 62 -- Costs: 3
+   Wienerbergbruecke via 62 -- Costs: 2
+
+Wienerbergbruecke
+   Sonnergasse via 62 -- Costs: 2
+   Bahnhof Meidling via 62 -- Costs: 2
+
+Salztorbruecke
+   Schwedenplatz via 1 -- Costs: 2
+   Schottenring via 1 -- Costs: 2
+
+Perfektastrasse
+   Siebenhirten via U6 -- Costs: 2
+   Erlaaer Strasse via U6 -- Costs: 1
+
+Wattmanngasse
    Hofwiesengasse via 10 -- Costs: 1
-   Jagdschlossgasse via 10 -- Costs: 2
+   Hofwiesengasse via 62 -- Costs: 1
+   Atzgersdorfer Strasse via 62 -- Costs: 2
 
-Prinzgasse
-   Ziegelhofstrasse via 26 -- Costs: 1
-   Zanggasse via 26 -- Costs: 1
+Thaliastrasse
+   Burggasse-Stadthalle via U6 -- Costs: 1
+   Josefstaedter Strasse via U6 -- Costs: 1
+   Schottenfeldgasse via 46 -- Costs: 2
+   Brunnengasse via 46 -- Costs: 1
 
-Quartier Belvedere
-   Schloss Belvedere via D -- Costs: 1
-   Hauptbahnhof Ost via D -- Costs: 2
-   Fasangasse via O -- Costs: 1
-   Hauptbahnhof via O -- Costs: 3
+Schoenbrunn
+   Hietzing via U4 -- Costs: 2
+   Meidling Hauptstrasse via U4 -- Costs: 1
 
-Quellenplatz
-   Laxenburger Strasse/Gudrunstrasse via O -- Costs: 2
-   Arthaberplatz via O -- Costs: 1
-
-Rankgasse
-   Thaliastrasse/Maroltingerg. via 46 -- Costs: 2
-   Joachimsthalerplatz via 46 -- Costs: 1
-
-Rathaus
-   Dr.-Karl-Renner-Ring via 2 -- Costs: 2
-   Lederergasse/Josefstaedter Strasse via 2 -- Costs: 2
-
-Redtenbachergasse
-   Ottakringer Strasse/Wattgasse via 2 -- Costs: 2
-   Ottakring via 2 -- Costs: 5
-
-Rennbahnweg
-   Kagraner Platz via U1 -- Costs: 2
-   Aderklaaer Strasse via U1 -- Costs: 1
+Philadelphiabruecke
+   Tscherttegasse via U6 -- Costs: 2
+   Niederhofstrasse via U6 -- Costs: 2
 
 Resselgasse
    Karlsplatz via 1 -- Costs: 1
    Paulanergasse via 1 -- Costs: 1
+   Paulanergasse via 62 -- Costs: 1
+   Kaerntner Ring, Oper via 62 -- Costs: 2
 
-Reumannplatz
-   Keplerplatz via U1 -- Costs: 1
+Carabelligasse
+   Grossjedlersdorf via 30 -- Costs: 2
+   Bruenner Strasse/Hanreiterg. via 30 -- Costs: 1
+   Grossjedlersdorf via 31 -- Costs: 2
+   Bruenner Strasse/Hanreiterg. via 31 -- Costs: 1
 
-Rochusgasse
-   Landstrasse via U3 -- Costs: 2
-   Kardinal-Nagl-Platz via U3 -- Costs: 1
+Kliebergasse
+   Laurenzgasse via 1 -- Costs: 1
+   Matzleinsdorfer Platz via 1 -- Costs: 2
+   Blechturmgasse via 18 -- Costs: 1
+   Matzleinsdorfer Platz via 18 -- Costs: 2
+   Matzleinsdorfer Platz via 62 -- Costs: 2
+   Laurenzgasse via 62 -- Costs: 1
 
-Rosensteingasse
-   Mayssengasse via 9 -- Costs: 2
-   Elterleinplatz via 9 -- Costs: 2
+Gumpendorfer Strasse
+   Laengenfeldgasse via U6 -- Costs: 2
+   Westbahnhof via U6 -- Costs: 1
+   Mariahilfer Guertel via 6 -- Costs: 1
+   Margaretenguertel via 6 -- Costs: 2
+   Margaretenguertel via 18 -- Costs: 1
+   Mariahilfer Guertel via 18 -- Costs: 2
 
-Rossauerlaende
-   Schottenring via U4 -- Costs: 2
-   Friedensbruecke via U4 -- Costs: 1
+Hintere Zollamtsstrasse
+   Radetzkyplatz via 1 -- Costs: 2
+   Julius-Raab-Platz via 1 -- Costs: 1
+   Radetzkyplatz via O -- Costs: 2
+   Marxergasse via O -- Costs: 2
+
+Enkplatz
+   Zippererstrasse via U3 -- Costs: 1
+   Simmering via U3 -- Costs: 1
+   Gottschalkgasse/Enkplatz via 6 -- Costs: 1
+   Braunhubergasse via 6 -- Costs: 1
+
+Gersthof
+   Simonygasse via 9 -- Costs: 1
+   Schoeffelgasse via 9 -- Costs: 2
+   Schoeffelgasse via 40 -- Costs: 1
+   Weinhauser Gasse via 40 -- Costs: 2
+   Tuerkenschanzplatz via 41 -- Costs: 2
+   Weinhauser Gasse via 41 -- Costs: 2
+
+Stadtpark
+   Karlsplatz via U4 -- Costs: 2
+   Landstrasse-Wien Mitte via U4 -- Costs: 1
+
+Laaer-Berg-Strasse
+   Per-Albin-Hansson-Sdlg. Ost via 67E -- Costs: 1
+   Oberlaa - Therme Wien via 67E -- Costs: 2
+
+Zentralfriedhof 1.Tor
+   Weissenboeckstrasse via 6 -- Costs: 2
+   Zentralfriedhof 2.Tor via 6 -- Costs: 2
+   Zentralfriedhof 2.Tor via 71 -- Costs: 1
+   Weissenboeckstrasse via 71 -- Costs: 1
+
+Hildebrandgasse
+   Vinzenzgasse via 42 -- Costs: 1
+   Michelbeuern-AKH via 42 -- Costs: 2
+
+Kaiser-Franz-Josef-Strasse
+   Rodaun via 60 -- Costs: 2
+   Breitenfurter Str/Liesingbr via 60 -- Costs: 1
+
+Yppengasse
+   Frauengasse via 44 -- Costs: 1
+   Hernalser Guertel via 44 -- Costs: 2
+
+Tesarekplatz
+   Otto-Probst-Platz via 67 -- Costs: 1
+   Otto-Probst-Strasse via 67 -- Costs: 1
+
+Tscherttegasse
+   Am Schoepfwerk via U6 -- Costs: 1
+   Philadelphiabruecke via U6 -- Costs: 2
+
+Geiereckstrasse
+   Absberggasse via 6 -- Costs: 3
+   Geiselbergstrasse via 6 -- Costs: 2
+
+Neulerchenf. Strasse/Brunnengasse
+   Josefstaedter Strasse via 2 -- Costs: 2
+   Neulerchenf. Strasse/Haberlgasse via 2 -- Costs: 1
+
+Kettenbrueckengasse
+   Pilgramgasse via U4 -- Costs: 1
+   Karlsplatz via U4 -- Costs: 2
 
 Schlachthausgasse
    Kardinal-Nagl-Platz via U3 -- Costs: 1
    Erdberg via U3 -- Costs: 1
+   Baumgasse via 18 -- Costs: 1
 
-Schloss Belvedere
-   Ploesslgasse via D -- Costs: 2
-   Quartier Belvedere via D -- Costs: 1
+Alser Strasse
+   Josefstaedter Strasse via U6 -- Costs: 2
+   Michelbeuern-AKH via U6 -- Costs: 1
+   Palffygasse via 43 -- Costs: 3
+   Bruennlbadgasse via 43 -- Costs: 1
 
-Schoeffelgasse
-   Gersthof via 9 -- Costs: 2
-   Wallrissstrasse via 9 -- Costs: 1
+Ameisgasse
+   Luetzowgasse via 52 -- Costs: 1
+   Diesterweggasse via 52 -- Costs: 2
 
-Schottenring
-   Schwedenplatz via U4 -- Costs: 1
-   Rossauerlaende via U4 -- Costs: 2
+Erzherzog-Karl-Strasse
+   Konstanziagasse via 25 -- Costs: 2
+   Polgarstrasse via 25 -- Costs: 1
+
+Klosterneubg S./Wallensteinstr
+   Gaussplatz via 31 -- Costs: 1
+   Gerhardusgasse via 31 -- Costs: 2
+
+Zentralfriedhof 3.Tor
+   Zentralfriedhof 2.Tor via 6 -- Costs: 1
+   Zentralfriedhof 4.Tor via 6 -- Costs: 1
+   Zentralfriedhof 3.Tor via 71 -- Costs: 1
+   Zentralfriedhof 2.Tor via 71 -- Costs: 2
+   Zentralfriedhof 3.Tor via 71 -- Costs: 1
+
+Zentralfriedhof 4.Tor
+   Zentralfriedhof 3.Tor via 6 -- Costs: 1
+   Pantucekgasse/Widholzgasse via 6 -- Costs: 2
+
+Silbergasse
+   Oberdoebling via 38 -- Costs: 1
+   Gatterburggasse via 38 -- Costs: 2
+
+Nestroyplatz
+   Schwedenplatz via U1 -- Costs: 1
+   Praterstern via U1 -- Costs: 1
+
+Aspernstrasse
+   Donauspital via U2 -- Costs: 1
+
+Krieau
+   Stadion via U2 -- Costs: 1
+   Messe-Prater via U2 -- Costs: 1
+
+Gerhardusgasse
+   Klosterneubg S./Wallensteinstr via 31 -- Costs: 2
+   Wexstrasse via 31 -- Costs: 1
+
+Suedtirolerplatz
+   Keplerplatz via U1 -- Costs: 2
+   Taubstummengasse via U1 -- Costs: 1
+
+Niederhofstrasse
+   Philadelphiabruecke via U6 -- Costs: 2
+   Laengenfeldgasse via U6 -- Costs: 1
+
+Wittelsbachstrasse
+   Prater Hauptallee via 1 -- Costs: 1
+   Loewengasse via 1 -- Costs: 2
+
+Gasometer
+   Erdberg via U3 -- Costs: 2
+   Zippererstrasse via U3 -- Costs: 1
+
+Gruschaplatz
+   Hochsatzengasse/Linzer Strasse via 52 -- Costs: 2
+   Zehetnergasse/Linzer Strasse via 52 -- Costs: 1
+
+Arbeiterg./Margaretenguertel
+   Eichenstrasse via 18 -- Costs: 2
+   Margaretenguertel via 18 -- Costs: 2
 
 Schottentor
+   Schottenring via U2 -- Costs: 2
+   Rathaus via U2 -- Costs: 2
+   Boerse via 1 -- Costs: 2
+   Rathausplatz/Burgtheater via 1 -- Costs: 2
    Schwarzspanierstrasse via 37 -- Costs: 2
    Schwarzspanierstrasse via 38 -- Costs: 2
    Schwarzspanierstrasse via 40 -- Costs: 2
@@ -501,68 +822,1283 @@ Schottentor
    Landesgerichtsstrasse via 44 -- Costs: 2
    Rathausplatz/Burgtheater via 71 -- Costs: 1
    Boerse via 71 -- Costs: 2
+   Boersegasse/Wipplingerstrasse via D -- Costs: 2
+   Rathausplatz/Burgtheater via D -- Costs: 2
 
-Schwarzenbergplatz
-   Weihburggasse via 2 -- Costs: 2
-   Kaerntner Ring, Oper via 2 -- Costs: 2
-   Kaerntner Ring, Oper via D -- Costs: 3
-   Gusshausstrasse via D -- Costs: 2
+Florianigasse
+   Albertgasse via 5 -- Costs: 1
+   Laudongasse via 5 -- Costs: 1
+   Laudongasse via 33 -- Costs: 2
+   Albertgasse via 33 -- Costs: 1
 
-Schwarzspanierstrasse
-   Schottentor via 37 -- Costs: 2
-   Sensengasse via 37 -- Costs: 2
+Polgarstrasse
+   Erzherzog-Karl-Strasse via 25 -- Costs: 1
+   Donaustadtstrasse via 25 -- Costs: 2
+
+Altes Landgut
+   Schleiergasse via 67 -- Costs: 2
+   Alaudagasse via 67 -- Costs: 3
+
+Himmelmutterweg
+   Neuwaldegg via 43 -- Costs: 2
+   Dornbacher Strasse via 43 -- Costs: 1
+
+Mayerhofgasse
+   Paulanergasse via 1 -- Costs: 2
+   Johann-Strauss-Gasse via 1 -- Costs: 1
+   Johann-Strauss-Gasse via 62 -- Costs: 1
+   Paulanergasse via 62 -- Costs: 2
+
+Liebknechtgasse
+   Dornbach Guepferlingstrasse via 44 -- Costs: 2
+   Wilhelminenstrasse/Sandleiteng. via 44 -- Costs: 1
+
+Stubentor
+   Stephansplatz via U3 -- Costs: 1
+   Landstrasse-Wien Mitte via U3 -- Costs: 1
+   Julius-Raab-Platz via 2 -- Costs: 1
+   Weihburggasse via 2 -- Costs: 1
+
+Friedensbruecke
+   Rossauerlaende via U4 -- Costs: 1
+   Spittelau via U4 -- Costs: 1
+   Franz-Josefs-Bahnhof via 5 -- Costs: 2
+   Klosterneubg S./Wallensteinstrasse via 5 -- Costs: 2
+   Klosterneuburger Strasse via 33 -- Costs: 1
+   Franz-Josefs-Bahnhof via 33 -- Costs: 2
+
+Leopoldau
+   Grossfeldsiedlung via U1 -- Costs: 2
+
+Beethovengang
+   Nussdorf via D -- Costs: 1
+
+Maurer-Lange-Gasse
+   Anton-Krieger-Gasse via 60 -- Costs: 1
+   Maurer Hauptplatz via 60 -- Costs: 1
+
+Burggasse-Stadthalle
+   Westbahnhof via U6 -- Costs: 2
+   Thaliastrasse via U6 -- Costs: 1
+   Urban-Loritz-Platz via 6 -- Costs: 1
+   Urban-Loritz-Platz via 18 -- Costs: 1
+
+Hardeggasse
+   Donauspital via U2 -- Costs: 2
+   Stadlau via U2 -- Costs: 1
+   Donauspital via 25 -- Costs: 2
+   Langobardenstrasse via 25 -- Costs: 1
+
+Volkstheater
+   Rathaus via U2 -- Costs: 1
+   Museumsquartier via U2 -- Costs: 1
+   Neubaugasse via U3 -- Costs: 2
+   Herrengasse via U3 -- Costs: 1
+   Stiftgasse via 49 -- Costs: 1
+   Dr.-Karl-Renner-Ring via 49 -- Costs: 2
+
+Redtenbachergasse
+   Ottakringer Strasse/Wattgasse via 2 -- Costs: 2
+   Ottakring via 2 -- Costs: 5
+
+Thaliastrasse/Haberlgasse
+   Brunnengasse via 46 -- Costs: 2
+   Thaliastrasse/Fesstgasse via 46 -- Costs: 1
+
+Gredlerstrasse
+   Karmeliterplatz via 2 -- Costs: 1
+   Schwedenplatz via 2 -- Costs: 1
+
+Kaisermuehlen-VIC
+   Donauinsel via U1 -- Costs: 1
+   Alte Donau via U1 -- Costs: 2
+
+Kranzgasse
+   Rustengasse via 52 -- Costs: 1
+   Staglgasse via 52 -- Costs: 2
+   Rustengasse via 58 -- Costs: 1
+   Staglgasse via 58 -- Costs: 2
+
+Laudongasse
+   Florianigasse via 5 -- Costs: 1
+   Lange Gasse via 5 -- Costs: 2
+   Lange Gasse via 33 -- Costs: 1
+   Florianigasse via 33 -- Costs: 2
+
+Fichtnergasse
+   Verbindungsbahn via 58 -- Costs: 2
+   Wenzgasse via 58 -- Costs: 1
+
+Julius-Raab-Platz
+   Hintere Zollamtsstrasse via 1 -- Costs: 1
+   Schwedenplatz via 1 -- Costs: 2
+   Schwedenplatz via 2 -- Costs: 3
+   Stubentor via 2 -- Costs: 1
+
+Bahnhof Meidling
+   Wienerbergbruecke via 62 -- Costs: 2
+   Doerfelstrasse via 62 -- Costs: 1
+
+Pantucekgasse/Widholzgasse
+   Zentralfriedhof 4.Tor via 6 -- Costs: 2
+   Leberberg via 6 -- Costs: 1
+
+Hietzing
+   Braunschweiggasse via U4 -- Costs: 1
+   Schoenbrunn via U4 -- Costs: 2
+
+Wenzgasse
+   Fichtnergasse via 58 -- Costs: 1
+   Dommayergasse via 58 -- Costs: 1
+
+Museumsquartier
+   Volkstheater via U2 -- Costs: 1
+   Karlsplatz via U2 -- Costs: 1
+
+Quellenstrasse/Favoritenstrasse
+   Quellenplatz via 6 -- Costs: 2
+   Gellertplatz via 6 -- Costs: 2
+   Quellenplatz via 67 -- Costs: 2
+   Reumannplatz via 67 -- Costs: 1
+
+Rankgasse
+   Thaliastrasse/Maroltingerg. via 46 -- Costs: 2
+   Joachimsthalerplatz via 46 -- Costs: 1
+
+Kagran
+   Alte Donau via U1 -- Costs: 1
+   Kagraner Platz via U1 -- Costs: 2
+   Donauzentrum via 25 -- Costs: 2
+   Prandaugasse via 25 -- Costs: 2
+
+Wallensteinplatz
+   Klosterneubg S./Wallensteinstrasse via 5 -- Costs: 1
+   Rauscherstrasse via 5 -- Costs: 2
+   Brigittaplatz via 33 -- Costs: 1
+   Klosterneuburger Strasse via 33 -- Costs: 2
+
+Am Spitz
+   Nordbruecke via 26 -- Costs: 2
+   Floridsdorf via 26 -- Costs: 2
+
+Keplerplatz
+   Reumannplatz via U1 -- Costs: 1
+   Suedtirolerplatz via U1 -- Costs: 2
 
 Schwedenplatz
    Stephansplatz via U1 -- Costs: 1
    Nestroyplatz via U1 -- Costs: 1
-   Landstrasse via U4 -- Costs: 2
+   Landstrasse-Wien Mitte via U4 -- Costs: 2
    Schottenring via U4 -- Costs: 1
+   Julius-Raab-Platz via 1 -- Costs: 2
+   Salztorbruecke via 1 -- Costs: 2
+   Gredlerstrasse via 2 -- Costs: 1
+   Julius-Raab-Platz via 2 -- Costs: 3
 
-Sensengasse
-   Schwarzspanierstrasse via 37 -- Costs: 2
-   Spitalgasse/Waehringer Strasse via 37 -- Costs: 1
+Penzinger Strasse
+   Johnstrasse/Linzer Strasse via 52 -- Costs: 2
+   Winckelmannstrasse via 52 -- Costs: 2
+   Schloss Schoenbrunn via 58 -- Costs: 1
+   Winckelmannstrasse via 58 -- Costs: 2
 
-Shuttleworthstrasse
-   Bruenner Strasse via 30 -- Costs: 1
-   Grossjedlersdorf via 30 -- Costs: 1
+Aumannplatz
+   Weinhauser Gasse via 40 -- Costs: 1
+   Martinstrasse via 40 -- Costs: 2
+   Weinhauser Gasse via 41 -- Costs: 1
+   Martinstrasse via 41 -- Costs: 2
 
-Simmering
-   Enkplatz via U3 -- Costs: 1
-   Braunhubergasse via 6 -- Costs: 1
-   Fickeysstrasse via 6 -- Costs: 1
+Schwarzenbergplatz
+   Weihburggasse via 2 -- Costs: 2
+   Kaerntner Ring, Oper via 2 -- Costs: 2
+   Am Heumarkt via 71 -- Costs: 1
+   Kaerntner Ring, Oper via 71 -- Costs: 3
+   Kaerntner Ring, Oper via D -- Costs: 3
+   Gusshausstrasse via D -- Costs: 2
 
-Simonygasse
-   Sommarugagasse via 9 -- Costs: 1
-   Gersthof via 9 -- Costs: 1
+Stefan-Fadinger-Platz
+   Windtenstrasse via 1 -- Costs: 1
+
+Liechtenwerder Platz
+   Spittelau via D -- Costs: 1
+   Augasse via D -- Costs: 2
+
+Karlsplatz
+   Taubstummengasse via U1 -- Costs: 2
+   Stephansplatz via U1 -- Costs: 2
+   Museumsquartier via U2 -- Costs: 1
+   Kettenbrueckengasse via U4 -- Costs: 2
+   Stadtpark via U4 -- Costs: 2
+   Kaerntner Ring, Oper via 1 -- Costs: 3
+   Resselgasse via 1 -- Costs: 1
+
+An den langen Luessen
+   Grinzing via 38 -- Costs: 2
+   Paradisgasse via 38 -- Costs: 1
+
+Palffygasse
+   Elterleinplatz via 43 -- Costs: 2
+   Alser Strasse via 43 -- Costs: 3
 
 Sommarugagasse
    Vinzenzgasse via 9 -- Costs: 1
    Simonygasse via 9 -- Costs: 1
+   Antonigasse via 42 -- Costs: 1
+   Vinzenzgasse via 42 -- Costs: 1
 
-Spargelfeldstrasse
-   Suessenbrunner Str/Oberfeldgasse via 26 -- Costs: 1
-   Ziegelhofstrasse via 26 -- Costs: 1
+Hohe Warte
+   Perntergasse via 37 -- Costs: 1
 
-Spitalgasse/Waehringer Strasse
-   Sensengasse via 37 -- Costs: 1
-   Nussdorfer Strasse/Alserbachstrasse via 37 -- Costs: 1
+Windtenstrasse
+   Troststrasse via 1 -- Costs: 1
+   Stefan-Fadinger-Platz via 1 -- Costs: 1
+
+Ottakring
+   Kendlerstrasse via U3 -- Costs: 1
+   Redtenbachergasse via 2 -- Costs: 5
+   Thaliastrasse/Maroltingergasse via 2 -- Costs: 1
+   Schuhmeierplatz via 46 -- Costs: 2
+   Thaliastrasse/Maroltingerg. via 46 -- Costs: 1
+
+Edmund-Hawranek-Platz
+   Russbergstrasse via 26 -- Costs: 1
+
+Troststrasse
+   Davidgasse via 1 -- Costs: 2
+   Windtenstrasse via 1 -- Costs: 1
+   Reumannplatz via 67 -- Costs: 2
+   Schleiergasse via 67 -- Costs: 1
+
+Michelbeuern-AKH
+   Alser Strasse via U6 -- Costs: 1
+   Waehringer Strasse-Volksoper via U6 -- Costs: 2
+   Hildebrandgasse via 42 -- Costs: 2
+   Waehringer Strasse-Volksoper via 42 -- Costs: 1
+
+Heiligenstadt, 12.-Februar-Pl
+   Halteraugasse via D -- Costs: 1
+   Gunoldstrasse via D -- Costs: 1
+
+Forstnergasse
+   Kraygasse via 26 -- Costs: 1
+   Gewerbepark Stadlau via 26 -- Costs: 2
+
+Schottenring
+   Taborstrasse via U2 -- Costs: 1
+   Schottentor via U2 -- Costs: 2
+   Schwedenplatz via U4 -- Costs: 1
+   Rossauerlaende via U4 -- Costs: 2
+   Salztorbruecke via 1 -- Costs: 2
+   Boerse via 1 -- Costs: 1
+   Obere Donaustrasse via 31 -- Costs: 3
+
+Koppstrasse/Panikengasse
+   Camillo-Sitte-Gasse via 9 -- Costs: 2
+   Thaliastrasse/Fesstgasse via 9 -- Costs: 2
+
+Stiftgasse
+   Siebensterngasse via 49 -- Costs: 1
+   Volkstheater via 49 -- Costs: 1
+
+Praterstern
+   Nestroyplatz via U1 -- Costs: 1
+   Vorgartenstrasse via U1 -- Costs: 1
+   Messe-Prater via U2 -- Costs: 2
+   Taborstrasse via U2 -- Costs: 2
+   Nordbahnstrasse via 5 -- Costs: 2
+   Franzensbruecke via O -- Costs: 2
+
+Hermesstrasse
+   Krankenhaus Hietzing via 62 -- Costs: 1
+   Hofwiesengasse via 62 -- Costs: 2
+
+Hoechstaedtplatz
+   Friedrich-Engels-Platz via 2 -- Costs: 2
+   Dresdner Strasse via 2 -- Costs: 1
+   Jaegerstrasse via 31 -- Costs: 2
+   Friedrich-Engels-Platz via 31 -- Costs: 2
+   Friedrich-Engels-Platz via 33 -- Costs: 2
+   Jaegerstrasse via 33 -- Costs: 2
+
+Taubstummengasse
+   Suedtirolerplatz via U1 -- Costs: 1
+   Karlsplatz via U1 -- Costs: 2
+
+Hetzgasse
+   Loewengasse via 1 -- Costs: 1
+   Radetzkyplatz via 1 -- Costs: 1
+
+Erlaaer Strasse
+   Perfektastrasse via U6 -- Costs: 1
+   Alterlaa via U6 -- Costs: 2
+
+Am Heidjoechl
+   Zanggasse via 26 -- Costs: 1
+   Hausfeldstrasse via 26 -- Costs: 1
+
+Kardinal-Nagl-Platz
+   Rochusgasse via U3 -- Costs: 1
+   Schlachthausgasse via U3 -- Costs: 1
+
+Frauengasse
+   Teichgasse via 44 -- Costs: 2
+   Yppengasse via 44 -- Costs: 1
+
+Johnstrasse
+   Huetteldorfer Strasse via U3 -- Costs: 1
+   Schweglerstrasse via U3 -- Costs: 2
+   Huetteldorfer Strasse via 49 -- Costs: 2
+   Huglgasse via 49 -- Costs: 2
+
+Westbahnhof
+   Schweglerstrasse via U3 -- Costs: 1
+   Zieglergasse via U3 -- Costs: 1
+   Gumpendorfer Strasse via U6 -- Costs: 1
+   Burggasse-Stadthalle via U6 -- Costs: 2
+   Stollgasse via 5 -- Costs: 2
+   Urban-Loritz-Platz via 6 -- Costs: 3
+   Mariahilfer Guertel via 6 -- Costs: 3
+   Urban-Loritz-Platz via 9 -- Costs: 2
+   Mariahilfer Guertel via 18 -- Costs: 1
+   Urban-Loritz-Platz via 18 -- Costs: 3
+   Gerstnerstrasse/Westbhf. via 52 -- Costs: 1
+   Gerstnerstrasse/Westbhf. via 58 -- Costs: 1
+
+Adolf-Unger-Gasse
+   Stockholmer Platz via 67E -- Costs: 1
+   Hubert-Gsur-Gasse via 67E -- Costs: 1
+
+Zippererstrasse
+   Gasometer via U3 -- Costs: 1
+   Enkplatz via U3 -- Costs: 1
+   Hauffgasse via 71 -- Costs: 2
+   Molitorgasse via 71 -- Costs: 1
+
+Handelskai
+   Dresdner Strasse via U6 -- Costs: 1
+   Neue Donau via U6 -- Costs: 2
+
+Floridsdorfer Markt
+   Floridsdorf via 30 -- Costs: 5
+   Bahnsteggasse via 30 -- Costs: 1
+   Floridsdorf via 31 -- Costs: 4
+   Bahnsteggasse via 31 -- Costs: 1
+
+Raxstrasse/Rudolfshuegelgasse
+   Sahulkastrasse via 67 -- Costs: 1
+   Troststrasse/Neilreichgasse via 67 -- Costs: 3
+
+Kaiserstrasse/Westbahnstrasse
+   Stollgasse via 5 -- Costs: 2
+   Kaiserstrasse/Burggasse via 5 -- Costs: 1
+   Urban-Loritz-Platz via 49 -- Costs: 2
+   Zieglergasse/Westbahnstrasse via 49 -- Costs: 1
+
+Joachimsthalerplatz
+   Rankgasse via 46 -- Costs: 1
+
+Schlickgasse
+   Bauernfeldplatz via D -- Costs: 1
+   Boersegasse/Wipplingerstrasse via D -- Costs: 1
+
+Schweglerstrasse
+   Johnstrasse via U3 -- Costs: 2
+   Westbahnhof via U3 -- Costs: 1
+   Beingasse via 9 -- Costs: 1
+   Guntherstrasse via 9 -- Costs: 1
+   Huglgasse via 49 -- Costs: 1
+   Beingasse via 49 -- Costs: 2
+
+Josefstaedter Strasse
+   Thaliastrasse via U6 -- Costs: 1
+   Alser Strasse via U6 -- Costs: 2
+   Albertgasse via 2 -- Costs: 1
+   Neulerchenf. Strasse/Brunnengasse via 2 -- Costs: 2
+   Albertgasse via 33 -- Costs: 3
+
+Waehringer Strasse-Volksoper
+   Michelbeuern-AKH via U6 -- Costs: 2
+   Nussdorfer Strasse via U6 -- Costs: 1
+   Kutschkergasse via 40 -- Costs: 2
+   Spitalgasse/Waehringer Strasse via 40 -- Costs: 2
+   Kutschkergasse via 41 -- Costs: 2
+   Spitalgasse/Waehringer Strasse via 41 -- Costs: 2
+   Michelbeuern-AKH via 42 -- Costs: 1
+   Spitalgasse/Waehringer strasse via 42 -- Costs: 2
+
+Ober Sankt Veit
+   Huetteldorf via U4 -- Costs: 2
+   Unter Sank Veit via U4 -- Costs: 1
+
+Obere Donaustrasse
+   Schottenring via 31 -- Costs: 3
+   Obere Augartenstrasse via 31 -- Costs: 2
+
+Dresdner Strasse
+   Jaegerstrasse via U6 -- Costs: 2
+   Handelskai via U6 -- Costs: 1
+   Hoechstaedtplatz via 2 -- Costs: 1
+   Traisengasse via 2 -- Costs: 2
+
+Laurenzgasse
+   Johann-Strauss-Gasse via 1 -- Costs: 2
+   Kliebergasse via 1 -- Costs: 1
+   Kliebergasse via 62 -- Costs: 1
+   Johann-Strauss-Gasse via 62 -- Costs: 1
+
+Donauspital
+   Aspernstrasse via U2 -- Costs: 1
+   Hardeggasse via U2 -- Costs: 2
+   Langobardenstrasse/Kapellenweg via 25 -- Costs: 1
+   Hardeggasse via 25 -- Costs: 2
+
+Kendlerstrasse
+   Ottakring via U3 -- Costs: 1
+   Huetteldorfer Strasse via U3 -- Costs: 1
+
+Trondheimgasse
+   Oberdorfstrasse via 25 -- Costs: 1
+   Langobardenstrasse/Kapellenweg via 25 -- Costs: 1
+
+Hauffgasse
+   Enkplatz U/Grillgasse via 71 -- Costs: 2
+   Zippererstrasse via 71 -- Costs: 2
+
+Erdberg
+   Schlachthausgasse via U3 -- Costs: 1
+   Gasometer via U3 -- Costs: 2
+
+Huetteldorfer Strasse
+   Kendlerstrasse via U3 -- Costs: 1
+   Johnstrasse via U3 -- Costs: 1
+   Breitensee via 49 -- Costs: 2
+   Johnstrasse via 49 -- Costs: 2
+
+Geiselbergstrasse
+   Geiereckstrasse via 6 -- Costs: 2
+   Polkorabplatz via 6 -- Costs: 1
 
 Spittelau
    Friedensbruecke via U4 -- Costs: 1
    Heiligenstadt via U4 -- Costs: 2
    Nussdorfer Strasse via U6 -- Costs: 2
    Jaegerstrasse via U6 -- Costs: 1
+   Rampengasse via D -- Costs: 2
+   Liechtenwerder Platz via D -- Costs: 1
+
+Tuerkenschanzplatz
+   Erndtgasse via 41 -- Costs: 1
+   Gersthof via 41 -- Costs: 2
+
+Siebensterngasse
+   Neubaugasse/Westbahnstrasse via 49 -- Costs: 1
+   Stiftgasse via 49 -- Costs: 1
+
+Ottakringer Strasse/Erdbrustgasse
+   Thaliastrasse/Maroltingergasse via 2 -- Costs: 2
+
+Gersthf. Strasse/Scheibenbergstrasse
+   Poetzleinsdorf via 41 -- Costs: 3
+   Erndtgasse via 41 -- Costs: 1
+
+Rossauerlaende
+   Schottenring via U4 -- Costs: 2
+   Friedensbruecke via U4 -- Costs: 1
+
+Nordbahnstrasse
+   Am Tabor via 5 -- Costs: 2
+   Praterstern via 5 -- Costs: 2
+
+Pilgramgasse
+   Margaretenguertel via U4 -- Costs: 2
+   Kettenbrueckengasse via U4 -- Costs: 1
+
+Carminweg
+   Josef-Baumann-Gasse via 25 -- Costs: 2
+   Fultonstrasse via 25 -- Costs: 1
+   Fultonstrasse via 26 -- Costs: 2
+   Josef-Baumann-Gasse via 26 -- Costs: 1
+
+Per-Albin-Hansson-Sdlg. Ost
+   Hubert-Gsur-Gasse via 67E -- Costs: 1
+   Laaer-Berg-Strasse via 67E -- Costs: 1
+
+Margaretenguertel
+   Laengenfeldgasse via U4 -- Costs: 2
+   Pilgramgasse via U4 -- Costs: 2
+   Gumpendorfer Strasse via 6 -- Costs: 2
+   Arbeitergasse/Margaretenguertel via 6 -- Costs: 1
+   Arbeiterg./Margaretenguertel via 18 -- Costs: 2
+   Gumpendorfer Strasse via 18 -- Costs: 1
+
+Oberdoebling
+   Sieveringer Strasse via 38 -- Costs: 1
+   Silbergasse via 38 -- Costs: 1
+
+Neubaugasse
+   Zieglergasse via U3 -- Costs: 1
+   Volkstheater via U3 -- Costs: 2
+
+Rathausplatz/Burgtheater
+   Schottentor via 1 -- Costs: 2
+   Stadiongasse/Parlament via 1 -- Costs: 1
+   Stadiongasse/Parlament via 71 -- Costs: 1
+   Schottentor via 71 -- Costs: 1
+   Schottentor via D -- Costs: 2
+   Stadiongasse/Parlament via D -- Costs: 1
+
+Zieglergasse
+   Westbahnhof via U3 -- Costs: 1
+   Neubaugasse via U3 -- Costs: 1
+
+Jaegerstrasse
+   Spittelau via U6 -- Costs: 1
+   Dresdner Strasse via U6 -- Costs: 2
+   Wexstrasse via 31 -- Costs: 1
+   Hoechstaedtplatz via 31 -- Costs: 2
+   Hoechstaedtplatz via 33 -- Costs: 2
+   Brigittaplatz via 33 -- Costs: 1
+
+Rathaus
+   Schottentor via U2 -- Costs: 2
+   Volkstheater via U2 -- Costs: 1
+   Dr.-Karl-Renner-Ring via 2 -- Costs: 2
+   Lederergasse/Josefstaedter Strasse via 2 -- Costs: 2
+
+Laengenfeldgasse
+   Meidling Hauptstrasse via U4 -- Costs: 1
+   Margaretenguertel via U4 -- Costs: 2
+   Niederhofstrasse via U6 -- Costs: 1
+   Gumpendorfer Strasse via U6 -- Costs: 2
+
+Herrengasse
+   Volkstheater via U3 -- Costs: 1
+   Stephansplatz via U3 -- Costs: 2
+
+Langobardenstrasse/Kapellenweg
+   Trondheimgasse via 25 -- Costs: 1
+   Donauspital via 25 -- Costs: 1
+
+Rennbahnweg
+   Kagraner Platz via U1 -- Costs: 2
+   Aderklaaer Strasse via U1 -- Costs: 1
+
+Meidling Hauptstrasse
+   Schoenbrunn via U4 -- Costs: 1
+   Laengenfeldgasse via U4 -- Costs: 1
+
+Braunhubergasse
+   Enkplatz via 6 -- Costs: 1
+   Simmering via 6 -- Costs: 1
+   Simmering via 71 -- Costs: 1
+   Enkplatz U/Grillgasse via 71 -- Costs: 1
+
+Laxenburger Strasse/Troststrasse
+   Troststrasse/Neilreichgasse via 67 -- Costs: 1
+   Arthaberplatz via 67 -- Costs: 3
+   Arthaberplatz via O -- Costs: 2
+   Troststrasse/Neilreichgasse via O -- Costs: 2
+
+Simmering
+   Enkplatz via U3 -- Costs: 1
+   Braunhubergasse via 6 -- Costs: 1
+   Fickeysstrasse via 6 -- Costs: 1
+   Fickeysstrasse via 71 -- Costs: 2
+   Braunhubergasse via 71 -- Costs: 1
+
+Spitalgasse/Waehringer Strasse
+   Lazarettgasse via 5 -- Costs: 1
+   Nussdorfer Strasse/Alserbachstrasse via 5 -- Costs: 2
+   Nussdorfer Strasse/Alserbachstrasse via 33 -- Costs: 2
+   Lazarettgasse via 33 -- Costs: 2
+   Sensengasse via 37 -- Costs: 1
+   Nussdorfer Strasse/Alserbachstrasse via 37 -- Costs: 1
+   Nussdorfer Strasse/Alserbachstrasse via 38 -- Costs: 2
+   Schwarzspanierstrasse via 38 -- Costs: 3
+   Waehringer Strasse-Volksoper via 40 -- Costs: 2
+   Schwarzspanierstrasse via 40 -- Costs: 3
+   Waehringer Strasse-Volksoper via 41 -- Costs: 2
+   Schwarzspanierstrasse via 41 -- Costs: 3
+
+Unter Sank Veit
+   Ober Sankt Veit via U4 -- Costs: 1
+   Braunschweiggasse via U4 -- Costs: 2
+
+Reumannplatz
+   Keplerplatz via U1 -- Costs: 1
+   Quellenstrasse/Favoritenstrasse via 67 -- Costs: 1
+   Troststrasse via 67 -- Costs: 2
+
+Weinhauser Gasse
+   Gersthof via 40 -- Costs: 2
+   Aumannplatz via 40 -- Costs: 1
+   Gersthof via 41 -- Costs: 2
+   Aumannplatz via 41 -- Costs: 1
+
+Prater Hauptallee
+   Wittelsbachstrasse via 1 -- Costs: 1
+
+Hossplatz
+   Fultonstrasse via 25 -- Costs: 2
+   Floridsdorf via 25 -- Costs: 4
+   Floridsdorf via 26 -- Costs: 2
+   Fultonstrasse via 26 -- Costs: 2
+
+Am Schoepfwerk
+   Alterlaa via U6 -- Costs: 2
+   Tscherttegasse via U6 -- Costs: 1
+
+Schleiergasse
+   Troststrasse via 67 -- Costs: 1
+   Altes Landgut via 67 -- Costs: 2
+
+Floridsdorf
+   Neue Donau via U6 -- Costs: 2
+   Hossplatz via 25 -- Costs: 4
+   Am Spitz via 26 -- Costs: 2
+   Hossplatz via 26 -- Costs: 2
+   Floridsdorfer Markt via 30 -- Costs: 5
+   Matthaeus-Jiszda-Strasse via 31 -- Costs: 2
+   Floridsdorfer Markt via 31 -- Costs: 4
+
+Messe-Prater
+   Krieau via U2 -- Costs: 1
+   Praterstern via U2 -- Costs: 2
+
+Nussdorfer Strasse
+   Waehringer Strasse-Volksoper via U6 -- Costs: 1
+   Spittelau via U6 -- Costs: 2
+   Canisiusgasse via 37 -- Costs: 1
+   Glatzgasse via 37 -- Costs: 2
+   Glatzgasse via 38 -- Costs: 1
+   Canisiusgasse via 38 -- Costs: 2
+
+Kaiserebersdorf, Zinnergasse
+   Valiergasse via 6 -- Costs: 2
+
+Gottschalkgasse/Enkplatz
+   Polkorabplatz via 6 -- Costs: 1
+   Enkplatz via 6 -- Costs: 1
+
+Stadion
+   Donaumarina via U2 -- Costs: 2
+   Krieau via U2 -- Costs: 1
+
+Polkorabplatz
+   Geiselbergstrasse via 6 -- Costs: 1
+   Gottschalkgasse/Enkplatz via 6 -- Costs: 1
+
+Simonygasse
+   Sommarugagasse via 9 -- Costs: 1
+   Gersthof via 9 -- Costs: 1
+
+Quellenplatz
+   Neilreichgasse via 6 -- Costs: 1
+   Quellenstrasse/Favoritenstrasse via 6 -- Costs: 2
+   Arthaberplatz via 67 -- Costs: 1
+   Quellenstrasse/Favoritenstrasse via 67 -- Costs: 2
+   Laxenburger Strasse/Gudrunstrasse via O -- Costs: 2
+   Arthaberplatz via O -- Costs: 1
+
+Neue Donau
+   Handelskai via U6 -- Costs: 2
+   Floridsdorf via U6 -- Costs: 2
+
+Donauinsel
+   Vorgartenstrasse via U1 -- Costs: 2
+   Kaisermuehlen-VIC via U1 -- Costs: 1
+
+Eichenstrasse
+   Arbeitergasse/Margaretenguertel via 6 -- Costs: 2
+   Matzleinsdorfer Platz via 6 -- Costs: 2
+   Matzleinsdorfer Platz via 18 -- Costs: 2
+   Arbeiterg./Margaretenguertel via 18 -- Costs: 2
+   Marx-Meidlinger-Strasse via 62 -- Costs: 2
+   Matzleinsdorfer Platz via 62 -- Costs: 2
+
+Neubaugasse/Westbahnstrasse
+   Zieglergasse/Westbahnstrasse via 49 -- Costs: 2
+   Siebensterngasse via 49 -- Costs: 1
+
+Neilreichgasse
+   Bernhardtstalgasse via 6 -- Costs: 1
+   Quellenplatz via 6 -- Costs: 1
+
+Grossfeldsiedlung
+   Aderklaaer Strasse via U1 -- Costs: 1
+   Leopoldau via U1 -- Costs: 2
+
+Elterleinplatz
+   Rosensteingasse via 9 -- Costs: 2
+   Blumengasse via 9 -- Costs: 1
+   Rosensteingasse via 43 -- Costs: 2
+   Palffygasse via 43 -- Costs: 2
+
+Arbeitergasse/Margaretenguertel
+   Margaretenguertel via 6 -- Costs: 1
+   Eichenstrasse via 6 -- Costs: 2
+
+Kleistgasse
+   Oberzellergasse via 71 -- Costs: 1
+   Rennweg via 71 -- Costs: 1
+
+Dornbach Guepferlingstrasse
+   Dornbacher Strasse via 43 -- Costs: 1
+   Hernals via 43 -- Costs: 2
+   Liebknechtgasse via 44 -- Costs: 2
+
+Mariahilfer Guertel
+   Westbahnhof via 6 -- Costs: 3
+   Gumpendorfer Strasse via 6 -- Costs: 1
+   Gumpendorfer Strasse via 18 -- Costs: 2
+   Westbahnhof via 18 -- Costs: 1
+
+Gusenleithnergasse
+   Zehetnergasse/Linzer Strasse via 52 -- Costs: 1
+   Luetzowgasse via 52 -- Costs: 1
+
+Suessenbrunner Str/Oberfeldgasse
+   Gewerbepark Stadlau via 26 -- Costs: 1
+   Spargelfeldstrasse via 26 -- Costs: 1
+
+Urban-Loritz-Platz
+   Burggasse-Stadthalle via 6 -- Costs: 1
+   Westbahnhof via 6 -- Costs: 3
+   Westbahnhof via 9 -- Costs: 2
+   Beingasse via 9 -- Costs: 2
+   Westbahnhof via 18 -- Costs: 3
+   Burggasse-Stadthalle via 18 -- Costs: 1
+   Beingasse via 49 -- Costs: 1
+   Kaiserstrasse/Westbahnstrasse via 49 -- Costs: 2
+
+Scheibenbergstrasse
+   Eckpergasse via 40 -- Costs: 1
+   Alsegger Strasse via 40 -- Costs: 2
+
+Grinzinger Strasse
+   Sickenberggasse via D -- Costs: 2
+   Halteraugasse via D -- Costs: 1
+
+Wallrissstrasse
+   Schoeffelgasse via 9 -- Costs: 1
+
+Schoeffelgasse
+   Gersthof via 9 -- Costs: 2
+   Wallrissstrasse via 9 -- Costs: 1
+   Alsegger Strasse via 40 -- Costs: 1
+   Gersthof via 40 -- Costs: 1
+
+Vinzenzgasse
+   Blumengasse via 9 -- Costs: 2
+   Sommarugagasse via 9 -- Costs: 1
+   Sommarugagasse via 42 -- Costs: 1
+   Hildebrandgasse via 42 -- Costs: 1
+
+Blumengasse
+   Elterleinplatz via 9 -- Costs: 1
+   Vinzenzgasse via 9 -- Costs: 2
 
 Stadlergasse
    Jagdschlossgasse via 10 -- Costs: 2
    Gloriettegasse via 10 -- Costs: 1
+   Jagdschlossgasse via 60 -- Costs: 2
+   Gloriettegasse via 60 -- Costs: 2
+
+Rosensteingasse
+   Mayssengasse via 9 -- Costs: 2
+   Elterleinplatz via 9 -- Costs: 2
+   Hernalser Hptstrasse/Wattgasse via 43 -- Costs: 2
+   Elterleinplatz via 43 -- Costs: 2
+
+Bruenner Strasse/Hanreiterg.
+   Carabelligasse via 30 -- Costs: 1
+   Empergergasse via 30 -- Costs: 2
+   Carabelligasse via 31 -- Costs: 1
+   Empergergasse via 31 -- Costs: 1
+
+Grossjedlersdorf
+   Shuttleworthstrassef via 30 -- Costs: 1
+   Carabelligasse via 30 -- Costs: 2
+   Shuttleworthstrasse via 31 -- Costs: 1
+   Carabelligasse via 31 -- Costs: 2
+
+Camillo-Sitte-Gasse
+   Guntherstrasse via 9 -- Costs: 1
+   Koppstrasse/Panikengasse via 9 -- Costs: 2
+
+Guntherstrasse
+   Schweglerstrasse via 9 -- Costs: 1
+   Camillo-Sitte-Gasse via 9 -- Costs: 1
+
+Beingasse
+   Urban-Loritz-Platz via 9 -- Costs: 2
+   Schweglerstrasse via 9 -- Costs: 1
+   Schweglerstrasse via 49 -- Costs: 2
+   Urban-Loritz-Platz via 49 -- Costs: 1
+
+Rochusgasse
+   Landstrasse-Wien Mitte via U3 -- Costs: 2
+   Kardinal-Nagl-Platz via U3 -- Costs: 1
+
+Bruenner Strasse
+   Bahnsteggasse via 30 -- Costs: 2
+   Shuttleworthstrassef via 30 -- Costs: 1
+   Bahnsteggasse via 31 -- Costs: 2
+   Shuttleworthstrasse via 31 -- Costs: 1
+
+Hietzing, Kennedybruecke
+   Dommayergasse via 10 -- Costs: 2
+   Dommayergasse via 58 -- Costs: 2
+   Schloss Schoenbrunn via 58 -- Costs: 2
+   Dommayergasse via 60 -- Costs: 1
+
+Donaustadtbruecke
+   Stadlau via U2 -- Costs: 2
+   Donaumarina via U2 -- Costs: 1
+
+Gloriettegasse
+   Stadlergasse via 10 -- Costs: 1
+   Dommayergasse via 10 -- Costs: 2
+   Stadlergasse via 60 -- Costs: 2
+   Dommayergasse via 60 -- Costs: 2
+
+Breitenfurter Str/Liesingbr
+   Kaiser-Franz-Josef-Strasse via 60 -- Costs: 1
+   Anton-Krieger-Gasse via 60 -- Costs: 1
+
+Wildgansplatz
+   Sankt Marx via 18 -- Costs: 2
+   Heinrich-Drimmel-Platz via 18 -- Costs: 1
+
+Sieveringer Strasse
+   Paradisgasse via 38 -- Costs: 1
+   Oberdoebling via 38 -- Costs: 1
+
+Strozzigasse
+   Auerspergstrasse via 46 -- Costs: 2
+   Schottenfeldgasse via 46 -- Costs: 2
+
+Hofwiesengasse
+   Wattmanngasse via 10 -- Costs: 1
+   Preyergasse via 10 -- Costs: 1
+   Speising, Hermesstrasse via 60 -- Costs: 2
+   Preyergasse via 60 -- Costs: 1
+   Hermesstrasse via 62 -- Costs: 2
+   Wattmanngasse via 62 -- Costs: 1
+
+Hauptbahnhof
+   Quartier Belvedere via 18 -- Costs: 3
+   Blechturmgasse via 18 -- Costs: 1
+   Quartier Belvedere via O -- Costs: 3
+   Columbusplatz via O -- Costs: 1
+
+Obere Augartenstrasse
+   Obere Donaustrasse via 31 -- Costs: 2
+   Gaussplatz via 31 -- Costs: 2
+
+Blechturmgasse
+   Hauptbahnhof via 18 -- Costs: 1
+   Kliebergasse via 18 -- Costs: 1
+
+Vorgartenstrasse
+   Praterstern via U1 -- Costs: 1
+   Donauinsel via U1 -- Costs: 2
+
+Quartier Belvedere
+   Fasangasse via 18 -- Costs: 1
+   Hauptbahnhof via 18 -- Costs: 3
+   Schloss Belvedere via D -- Costs: 1
+   Hauptbahnhof Ost via D -- Costs: 2
+   Fasangasse via O -- Costs: 1
+   Hauptbahnhof via O -- Costs: 3
+
+Martinstrasse
+   Aumannplatz via 40 -- Costs: 2
+   Kutschkergasse via 40 -- Costs: 1
+   Aumannplatz via 41 -- Costs: 2
+   Kutschkergasse via 41 -- Costs: 2
+
+Bruennlbadgasse
+   Alser Strasse via 43 -- Costs: 1
+   Skodagasse via 43 -- Costs: 1
+   Hernalser Guertel via 44 -- Costs: 2
+   Skodagasse via 44 -- Costs: 1
+
+Fasangasse
+   Heinrich-Drimmel-Platz via 18 -- Costs: 2
+   Quartier Belvedere via 18 -- Costs: 1
+   Koelblgasse via O -- Costs: 2
+   Quartier Belvedere via O -- Costs: 1
+
+Heinrich-Drimmel-Platz
+   Wildgansplatz via 18 -- Costs: 1
+   Fasangasse via 18 -- Costs: 2
+
+Sankt Marx
+   Viehmarktgasse via 18 -- Costs: 2
+   Wildgansplatz via 18 -- Costs: 2
+   Litfassstrasse via 71 -- Costs: 2
+   Oberzellergasse via 71 -- Costs: 2
+
+Preyergasse
+   Hofwiesengasse via 10 -- Costs: 1
+   Jagdschlossgasse via 10 -- Costs: 2
+   Hofwiesengasse via 60 -- Costs: 1
+   Jagdschlossgasse via 60 -- Costs: 2
+
+Langobardenstrasse
+   Hardeggasse via 25 -- Costs: 1
+   Konstanziagasse via 25 -- Costs: 1
+
+Viehmarktgasse
+   Baumgasse via 18 -- Costs: 1
+   Sankt Marx via 18 -- Costs: 2
+
+Baumgasse
+   Schlachthausgasse via 18 -- Costs: 1
+   Viehmarktgasse via 18 -- Costs: 1
+
+Fultonstrasse
+   Carminweg via 25 -- Costs: 1
+   Hossplatz via 25 -- Costs: 2
+   Hossplatz via 26 -- Costs: 2
+   Carminweg via 26 -- Costs: 2
+
+Wexstrasse
+   Gerhardusgasse via 31 -- Costs: 1
+   Jaegerstrasse via 31 -- Costs: 1
+
+Josef-Baumann-Gasse
+   Prandaugasse via 25 -- Costs: 2
+   Carminweg via 25 -- Costs: 2
+   Carminweg via 26 -- Costs: 1
+   Saikogasse via 26 -- Costs: 2
+
+Luetzowgasse
+   Gusenleithnergasse via 52 -- Costs: 1
+   Ameisgasse via 52 -- Costs: 1
+
+Prandaugasse
+   Kagran via 25 -- Costs: 2
+   Josef-Baumann-Gasse via 25 -- Costs: 2
+
+Donauzentrum
+   Kagraner Bruecke via 25 -- Costs: 1
+   Kagran via 25 -- Costs: 2
+
+Kagraner Bruecke
+   Arminenstrasse via 25 -- Costs: 2
+   Donauzentrum via 25 -- Costs: 1
+
+Kagraner Platz
+   Kagran via U1 -- Costs: 2
+   Rennbahnweg via U1 -- Costs: 2
+   Saikogasse via 26 -- Costs: 1
+   Kraygasse via 26 -- Costs: 2
+
+Koloniestrasse
+   Hopfengasse via 26 -- Costs: 2
+   Nordbruecke via 26 -- Costs: 1
+
+Arminenstrasse
+   Donaustadtstrasse via 25 -- Costs: 1
+   Kagraner Bruecke via 25 -- Costs: 2
+
+Donaustadtstrasse
+   Polgarstrasse via 25 -- Costs: 2
+   Arminenstrasse via 25 -- Costs: 1
+
+Alsegger Strasse
+   Scheibenbergstrasse via 40 -- Costs: 2
+   Schoeffelgasse via 40 -- Costs: 1
+
+Oberdorfstrasse
+   Trondheimgasse via 25 -- Costs: 1
+
+Zanggasse
+   Prinzgasse via 26 -- Costs: 1
+   Am Heidjoechl via 26 -- Costs: 1
+
+Blindengasse
+   Lerchenfelder Strasse via 5 -- Costs: 2
+   Albertgasse via 5 -- Costs: 1
+
+Prinzgasse
+   Ziegelhofstrasse via 26 -- Costs: 1
+   Zanggasse via 26 -- Costs: 1
+
+Gellertplatz
+   Quellenstrasse/Favoritenstrasse via 6 -- Costs: 2
+   Absberggasse via 6 -- Costs: 1
+
+Ziegelhofstrasse
+   Spargelfeldstrasse via 26 -- Costs: 1
+   Prinzgasse via 26 -- Costs: 1
+
+Empergergasse
+   Bruenner Strasse/Hanreiterg. via 30 -- Costs: 2
+   Anton-Schall-Gasse via 30 -- Costs: 1
+   Bruenner Strasse/Hanreiterg. via 31 -- Costs: 1
+   Anton-Schall-Gasse via 31 -- Costs: 1
+
+Spargelfeldstrasse
+   Suessenbrunner Str/Oberfeldgasse via 26 -- Costs: 1
+   Ziegelhofstrasse via 26 -- Costs: 1
+
+Augasse
+   Liechtenwerder Platz via D -- Costs: 2
+   Althanstrasse via D -- Costs: 1
+
+Hernalser Guertel
+   Yppengasse via 44 -- Costs: 2
+   Bruennlbadgasse via 44 -- Costs: 2
+
+Dommayergasse
+   Gloriettegasse via 10 -- Costs: 2
+   Hietzing, Kennedybruecke via 10 -- Costs: 2
+   Wenzgasse via 58 -- Costs: 1
+   Hietzing, Kennedybruecke via 58 -- Costs: 2
+   Gloriettegasse via 60 -- Costs: 2
+   Hietzing, Kennedybruecke via 60 -- Costs: 1
+
+Gewerbepark Stadlau
+   Forstnergasse via 26 -- Costs: 2
+   Suessenbrunner Str/Oberfeldgasse via 26 -- Costs: 1
+
+Kraygasse
+   Kagraner Platz via 26 -- Costs: 2
+   Forstnergasse via 26 -- Costs: 1
+
+Canisiusgasse
+   Nussdorfer Strasse/Alserbachstrasse via 37 -- Costs: 2
+   Nussdorfer Strasse via 37 -- Costs: 1
+   Nussdorfer Strasse via 38 -- Costs: 2
+   Nussdorfer Strasse/Alserbachstrasse via 38 -- Costs: 1
+
+Saikogasse
+   Josef-Baumann-Gasse via 26 -- Costs: 2
+   Kagraner Platz via 26 -- Costs: 1
+
+Nordbruecke
+   Koloniestrasse via 26 -- Costs: 1
+   Am Spitz via 26 -- Costs: 2
+
+Doerfelstrasse
+   Bahnhof Meidling via 62 -- Costs: 1
+   Assmayergasse via 62 -- Costs: 2
+
+Braunschweiggasse
+   Unter Sank Veit via U4 -- Costs: 2
+   Hietzing via U4 -- Costs: 1
+
+Jagdschlossgasse
+   Preyergasse via 10 -- Costs: 2
+   Stadlergasse via 10 -- Costs: 2
+   Preyergasse via 60 -- Costs: 2
+   Stadlergasse via 60 -- Costs: 2
+
+Perntergasse
+   Barawitzkagasse via 37 -- Costs: 2
+   Hohe Warte via 37 -- Costs: 1
+
+Grinzing
+   An den langen Luessen via 38 -- Costs: 2
+
+Hopfengasse
+   Winkelaeckerstrasse via 26 -- Costs: 1
+   Koloniestrasse via 26 -- Costs: 2
+
+Wilhelminenstrasse/Sandleiteng.
+   Liebknechtgasse via 44 -- Costs: 1
+   Roemergasse via 44 -- Costs: 1
+
+Van-Swieten-Kaserne
+   Anton-Schall-Gasse via 30 -- Costs: 1
+   Stammersdorf via 30 -- Costs: 2
+   Anton-Schall-Gasse via 31 -- Costs: 1
+   Stammersdorf via 31 -- Costs: 2
+
+Albertgasse
+   Lederergasse/Josefstaedter Strasse via 2 -- Costs: 1
+   Josefstaedter Strasse via 2 -- Costs: 1
+   Blindengasse via 5 -- Costs: 1
+   Florianigasse via 5 -- Costs: 1
+   Florianigasse via 33 -- Costs: 1
+   Josefstaedter Strasse via 33 -- Costs: 3
+
+Autokaderstrasse
+   Russbergstrasse via 26 -- Costs: 3
+   Winkelaeckerstrasse via 26 -- Costs: 1
+
+Bahnsteggasse
+   Floridsdorfer Markt via 30 -- Costs: 1
+   Bruenner Strasse via 30 -- Costs: 2
+   Floridsdorfer Markt via 31 -- Costs: 1
+   Bruenner Strasse via 31 -- Costs: 2
+
+Thaliastrasse/Maroltingerg.
+   Ottakring via 46 -- Costs: 1
+   Rankgasse via 46 -- Costs: 2
 
 Stammersdorf
    Van-Swieten-Kaserne via 30 -- Costs: 2
    Van-Swieten-Kaserne via 31 -- Costs: 2
 
-Stefan-Fadinger-Platz
-   Windtenstrasse via 1 -- Costs: 1
+Anton-Schall-Gasse
+   Empergergasse via 30 -- Costs: 1
+   Van-Swieten-Kaserne via 30 -- Costs: 1
+   Empergergasse via 31 -- Costs: 1
+   Van-Swieten-Kaserne via 31 -- Costs: 1
+
+Absberggasse
+   Gellertplatz via 6 -- Costs: 1
+   Geiereckstrasse via 6 -- Costs: 3
+
+Matthaeus-Jiszda-Strasse
+   Hubertusdamm via 31 -- Costs: 1
+   Floridsdorf via 31 -- Costs: 2
+
+Brunnengasse
+   Thaliastrasse via 46 -- Costs: 1
+   Thaliastrasse/Haberlgasse via 46 -- Costs: 2
+
+Hubertusdamm
+   Floridsdorfer Bruecke via 31 -- Costs: 1
+   Matthaeus-Jiszda-Strasse via 31 -- Costs: 1
+
+Schwarzspanierstrasse
+   Schottentor via 37 -- Costs: 2
+   Sensengasse via 37 -- Costs: 2
+   Spitalgasse/Waehringer Strasse via 38 -- Costs: 3
+   Schottentor via 38 -- Costs: 2
+   Spitalgasse/Waehringer Strasse via 40 -- Costs: 3
+   Schottentor via 40 -- Costs: 2
+   Spitalgasse/Waehringer Strasse via 41 -- Costs: 3
+   Schottentor via 41 -- Costs: 2
+   Spitalgasse/Waehringer strasse via 42 -- Costs: 3
+   Schottentor via 42 -- Costs: 2
+
+Alterlaa
+   Erlaaer Strasse via U6 -- Costs: 2
+   Am Schoepfwerk via U6 -- Costs: 2
+
+Floridsdorfer Bruecke
+   Friedrich-Engels-Platz via 31 -- Costs: 2
+   Hubertusdamm via 31 -- Costs: 1
+
+Mayssengasse
+   J.-Nepomuk-Berger-Platz via 9 -- Costs: 2
+   Rosensteingasse via 9 -- Costs: 2
+   Wilhelminenstrasse/Wattg. via 44 -- Costs: 2
+   Teichgasse via 44 -- Costs: 1
+
+Gaussplatz
+   Obere Augartenstrasse via 31 -- Costs: 2
+   Klosterneubg S./Wallensteinstr via 31 -- Costs: 1
+
+Huglgasse
+   Johnstrasse via 49 -- Costs: 2
+   Schweglerstrasse via 49 -- Costs: 1
+
+Brigittaplatz
+   Jaegerstrasse via 33 -- Costs: 1
+   Wallensteinplatz via 33 -- Costs: 1
+
+Pokornygasse
+   Doeblinger Hptstrasse/Gatterburgg. via 37 -- Costs: 1
+   Barawitzkagasse via 37 -- Costs: 1
+
+Doeblinger Hptstrasse/Gatterburgg.
+   Guneschgasse via 37 -- Costs: 1
+   Pokornygasse via 37 -- Costs: 1
+
+Rampengasse
+   Gunoldstrasse via D -- Costs: 1
+   Spittelau via D -- Costs: 2
+
+Otto-Probst-Platz
+   Tesarekplatz via 67 -- Costs: 1
+
+Guneschgasse
+   Glatzgasse via 37 -- Costs: 1
+   Doeblinger Hptstrasse/Gatterburgg. via 37 -- Costs: 1
+
+Glatzgasse
+   Nussdorfer Strasse via 37 -- Costs: 2
+   Guneschgasse via 37 -- Costs: 1
+   Hardtgasse via 38 -- Costs: 2
+   Nussdorfer Strasse via 38 -- Costs: 1
+
+Nussdorf
+   Beethovengang via D -- Costs: 1
+   Sickenberggasse via D -- Costs: 1
+
+Landstrasse-Wien Mitte
+   Stubentor via U3 -- Costs: 1
+   Rochusgasse via U3 -- Costs: 2
+   Stadtpark via U4 -- Costs: 1
+   Schwedenplatz via U4 -- Costs: 2
+   Marxergasse via O -- Costs: 1
+   Sechskruegelgasse via O -- Costs: 3
+
+Sensengasse
+   Schwarzspanierstrasse via 37 -- Costs: 2
+   Spitalgasse/Waehringer Strasse via 37 -- Costs: 1
+
+Gatterburggasse
+   Silbergasse via 38 -- Costs: 2
+   Hardtgasse via 38 -- Costs: 1
+
+Paradisgasse
+   An den langen Luessen via 38 -- Costs: 1
+   Sieveringer Strasse via 38 -- Costs: 1
+
+Donaumarina
+   Donaustadtbruecke via U2 -- Costs: 1
+   Stadion via U2 -- Costs: 2
+
+Teichgasse
+   Mayssengasse via 44 -- Costs: 1
+   Frauengasse via 44 -- Costs: 2
+
+Kutschkergasse
+   Martinstrasse via 40 -- Costs: 1
+   Waehringer Strasse-Volksoper via 40 -- Costs: 2
+   Martinstrasse via 41 -- Costs: 2
+   Waehringer Strasse-Volksoper via 41 -- Costs: 2
+
+Poetzleinsdorf
+   Gersthf. Strasse/Scheibenbergstrasse via 41 -- Costs: 3
+
+Eckpergasse
+   Herbeckstrasse via 40 -- Costs: 1
+   Scheibenbergstrasse via 40 -- Costs: 1
+
+Spitalgasse/Waehringer strasse
+   Waehringer Strasse-Volksoper via 42 -- Costs: 2
+   Schwarzspanierstrasse via 42 -- Costs: 3
+
+Riedelgasse
+   Sillerplatz via 60 -- Costs: 2
+   Speising, Hermesstrasse via 60 -- Costs: 1
+
+Antonigasse
+   Sommarugagasse via 42 -- Costs: 1
+
+Landesgerichtsstrasse
+   Lange Gasse via 43 -- Costs: 1
+   Schottentor via 43 -- Costs: 2
+   Lange Gasse via 44 -- Costs: 1
+   Schottentor via 44 -- Costs: 2
+
+Skodagasse
+   Bruennlbadgasse via 43 -- Costs: 1
+   Lange Gasse via 43 -- Costs: 1
+   Bruennlbadgasse via 44 -- Costs: 1
+   Lange Gasse via 44 -- Costs: 1
+
+Schloss Hetzendorf
+   Rosenhuegelstrasse via 62 -- Costs: 1
+   Hetzendorf via 62 -- Costs: 2
 
 Stephansplatz
    Karlsplatz via U1 -- Costs: 2
@@ -570,129 +2106,69 @@ Stephansplatz
    Herrengasse via U3 -- Costs: 2
    Stubentor via U3 -- Costs: 1
 
-Stockholmer Platz
-   Alaudagasse via 67E -- Costs: 2
-   Adolf-Unger-Gasse via 67E -- Costs: 1
+Hernalser Hptstrasse/Wattgasse
+   Hernals via 43 -- Costs: 2
+   Rosensteingasse via 43 -- Costs: 2
 
-Stubentor
-   Stephansplatz via U3 -- Costs: 1
-   Landstrasse via U3 -- Costs: 1
-   Julius-Raab-Platz via 2 -- Costs: 1
-   Weihburggasse via 2 -- Costs: 1
+Althanstrasse
+   Augasse via D -- Costs: 1
+   Franz-Josefs-Bahnhof via D -- Costs: 1
 
-Suedtirolerplatz
-   Keplerplatz via U1 -- Costs: 2
-   Taubstummengasse via U1 -- Costs: 1
+Hernals
+   Dornbach Guepferlingstrasse via 43 -- Costs: 2
+   Hernalser Hptstrasse/Wattgasse via 43 -- Costs: 2
 
-Suessenbrunner Str/Oberfeldgasse
-   Gewerbepark Stadlau via 26 -- Costs: 1
-   Spargelfeldstrasse via 26 -- Costs: 1
+Dornbacher Strasse
+   Himmelmutterweg via 43 -- Costs: 1
+   Dornbach Guepferlingstrasse via 43 -- Costs: 1
 
-Svetelskystrasse
-   Leberberg via 6 -- Costs: 1
-   Valiergasse via 6 -- Costs: 1
+Friedrich-Engels-Platz
+   Hoechstaedtplatz via 2 -- Costs: 2
+   Hoechstaedtplatz via 31 -- Costs: 2
+   Floridsdorfer Bruecke via 31 -- Costs: 2
+   Hoechstaedtplatz via 33 -- Costs: 2
 
-Taubstummengasse
-   Suedtirolerplatz via U1 -- Costs: 1
-   Karlsplatz via U1 -- Costs: 2
+Shuttleworthstrassef
+   Bruenner Strasse via 30 -- Costs: 1
+   Grossjedlersdorf via 30 -- Costs: 1
 
-Thaliastrasse/Maroltingerg.
-   Ottakring via 46 -- Costs: 1
-   Rankgasse via 46 -- Costs: 2
+Neuwaldegg
+   Himmelmutterweg via 43 -- Costs: 2
 
-Thaliastrasse/Maroltingergasse
-   Ottakring via 2 -- Costs: 1
-   Ottakringer Strasse/Erdbrustgasse via 2 -- Costs: 2
+Verbindungsbahn
+   Hummelgasse via 58 -- Costs: 1
+   Fichtnergasse via 58 -- Costs: 2
 
-Troststrasse
-   Davidgasse via 1 -- Costs: 2
-   Windtenstrasse via 1 -- Costs: 1
+Wilhelminenstrasse/Wattg.
+   Roemergasse via 44 -- Costs: 1
+   Mayssengasse via 44 -- Costs: 2
 
-Troststrasse/Neilreichgasse
-   Laxenburger Strasse/Troststrasse via O -- Costs: 2
-   Migerkastrasse via O -- Costs: 1
+Schuhmeierplatz
+   Thaliastrasse/Fesstgasse via 46 -- Costs: 2
+   Ottakring via 46 -- Costs: 2
 
-Urban-Loritz-Platz
-   Westbahnhof via 18 -- Costs: 3
-   Burggasse-Stadthalle via 18 -- Costs: 1
+Flurschuetzstrasse/Laengenfeldg.
+   Assmayergasse via 62 -- Costs: 1
+   Marx-Meidlinger-Strasse via 62 -- Costs: 1
 
-Valiergasse
-   Svetelskystrasse via 6 -- Costs: 1
-   Kaiserebersdorf, Zinnergasse via 6 -- Costs: 2
+Schottenfeldgasse
+   Strozzigasse via 46 -- Costs: 2
+   Thaliastrasse via 46 -- Costs: 2
 
-Van-Swieten-Kaserne
-   Anton-Schall-Gasse via 30 -- Costs: 1
-   Stammersdorf via 30 -- Costs: 2
+Auerspergstrasse
+   Schmerlingplatz via 46 -- Costs: 1
+   Strozzigasse via 46 -- Costs: 2
 
-Vinzenzgasse
-   Blumengasse via 9 -- Costs: 2
-   Sommarugagasse via 9 -- Costs: 1
+Taborstrasse
+   Praterstern via U2 -- Costs: 2
+   Schottenring via U2 -- Costs: 1
+   Taborstrasse/Heinestrasse via 2 -- Costs: 2
+   Karmeliterplatz via 2 -- Costs: 1
 
-Vorgartenstrasse
-   Praterstern via U1 -- Costs: 1
-   Donauinsel via U1 -- Costs: 2
+Konstanziagasse
+   Langobardenstrasse via 25 -- Costs: 1
+   Erzherzog-Karl-Strasse via 25 -- Costs: 2
 
-Wallrissstrasse
-   Schoeffelgasse via 9 -- Costs: 1
-
-Wattmanngasse
-   Hofwiesengasse via 10 -- Costs: 1
-
-Weihburggasse
-   Stubentor via 2 -- Costs: 1
-   Schwarzenbergplatz via 2 -- Costs: 2
-
-Weissenboeckstrasse
-   Fickeysstrasse via 6 -- Costs: 2
-   Zentralfriedhof 1.Tor via 6 -- Costs: 2
-
-Westbahnhof
-   Mariahilfer Guertel via 18 -- Costs: 1
-   Urban-Loritz-Platz via 18 -- Costs: 3
-   Gerstnerstrasse/Westbhf. via 52 -- Costs: 1
-   Gerstnerstrasse/Westbhf. via 58 -- Costs: 1
-
-Windtenstrasse
-   Troststrasse via 1 -- Costs: 1
-   Stefan-Fadinger-Platz via 1 -- Costs: 1
-
-Zanggasse
-   Prinzgasse via 26 -- Costs: 1
-   Am Heidjoechl via 26 -- Costs: 1
-
-Zentralfriedhof 1.Tor
-   Weissenboeckstrasse via 6 -- Costs: 2
-   Zentralfriedhof 2.Tor via 6 -- Costs: 2
-
-Zentralfriedhof 2.Tor
-   Zentralfriedhof 1.Tor via 6 -- Costs: 2
-   Zentralfriedhof 3.Tor via 6 -- Costs: 1
-
-Zentralfriedhof 3.Tor
-   Zentralfriedhof 2.Tor via 6 -- Costs: 1
-   Zentralfriedhof 4.Tor via 6 -- Costs: 1
-
-Zentralfriedhof 4.Tor
-   Zentralfriedhof 3.Tor via 6 -- Costs: 1
-   Pantucekgasse/Widholzgasse via 6 -- Costs: 2
-
-Ziegelhofstrasse
-   Spargelfeldstrasse via 26 -- Costs: 1
-   Prinzgasse via 26 -- Costs: 1
-
-Zippererstrasse
-   Gasometer via U3 -- Costs: 1
-   Enkplatz via U3 -- Costs: 1
-
-
-
-
-   TESTS:
-
-   find_path graph.txt Leopoldau Carminweg
-
-   -> Cost Carminweg: 10
-   -> Checks: 17
-
-
-   Find_Path.exe graph.txt Hauptbahnhof Schwedenplatz //Some error
+Zieglergasse/Westbahnstrasse
+   Kaiserstrasse/Westbahnstrasse via 49 -- Costs: 1
+   Neubaugasse/Westbahnstrasse via 49 -- Costs: 2

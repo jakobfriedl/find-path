@@ -37,7 +37,8 @@ class Graph
         void createAdjacencyList(std::vector<std::string> lineData);
         void printAdjacencyList();
 
-        std::string getPath(std::string pathString, std::string station);
+        //std::string getPath(std::string pathString, std::string station);
+        void printPath(std::string station);
 
         void dijkstra(std::string start, std::string dest);
 };
